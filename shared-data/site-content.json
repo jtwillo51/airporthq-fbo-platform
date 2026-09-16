@@ -1,0 +1,70 @@
+{
+  "_note": "Placeholder content, fictional demo operator.",
+  "facilityName": "Ridgeline Aviation / Summit Jet Center",
+  "airportCode": "KXRG",
+  "airportName": "Ridgeline Regional Airport",
+  "heroHeadline": "We Provide Value, Service, And Safety With Every Flight",
+  "heroSubheadline": "Full-service FBO and aircraft maintenance at Ridgeline Regional Airport (KXRG).",
+  "phone": "(555) 555-0123",
+  "afterHoursFee": 60.0,
+  "operatingHours": [
+    {
+      "day": "Monday",
+      "open": "07:00",
+      "close": "18:00"
+    },
+    {
+      "day": "Tuesday",
+      "open": "07:00",
+      "close": "18:00"
+    },
+    {
+      "day": "Wednesday",
+      "open": "07:00",
+      "close": "18:00"
+    },
+    {
+      "day": "Thursday",
+      "open": "07:00",
+      "close": "18:00"
+    },
+    {
+      "day": "Friday",
+      "open": "07:00",
+      "close": "18:00"
+    },
+    {
+      "day": "Saturday",
+      "open": "08:00",
+      "close": "16:00"
+    },
+    {
+      "day": "Sunday",
+      "open": "08:00",
+      "close": "16:00"
+    }
+  ],
+  "services": [
+    {
+      "name": "Jet A / 100LL Fuel",
+      "description": "Full-serve and self-serve fuel, 24/7 with after-hours callout."
+    },
+    {
+      "name": "Aircraft Maintenance",
+      "description": "Summit Jet Center performs inspections, repairs, and annuals."
+    },
+    {
+      "name": "Hangar & Tie-Down",
+      "description": "Transient and based hangar space, plus ramp tie-down."
+    },
+    {
+      "name": "Ramp & Quick-Turn",
+      "description": "Ramp parking, marshaling, and quick-turn service."
+    },
+    {
+      "name": "De-Icing",
+      "description": "Winter de-icing service for based and transient aircraft."
+    }
+  ],
+  "livestreamUrl": ""
+}

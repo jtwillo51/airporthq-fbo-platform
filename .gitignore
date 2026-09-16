@@ -1,0 +1,48 @@
+# ---------------------------------------------------------------------------
+# REAL CLIENT DATA - never commit, never publish.
+#
+# handoff/ holds the operator's actual workbook and the JSON converted from it:
+# real invoices, real business names, real contacts, real per-gallon pricing.
+# None of it is needed to run the app - everything in shared-data/ is generated
+# by scripts/generate_timeline.py. It is kept locally only as provenance for
+# how the project started.
+#
+# If this repo is ever shared, cloned, or pushed, these paths must not go with
+# it. Removing an entry here is a disclosure decision, not a cleanup.
+# ---------------------------------------------------------------------------
+handoff/data/
+handoff/real-july-reference/
+*.xlsx
+*.xls
+
+# Secrets
+.env
+.env.local
+.env*.local
+
+# Dependencies / build output
+node_modules/
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Tooling noise
+.DS_Store
+Thumbs.db
+*.log
+.vercel
+coverage/
+
+# ---------------------------------------------------------------------------
+# Client-identifying material - kept locally, never published.
+# The public repo uses a fictional operator (Ridgeline Aviation / KXRG).
+# handoff/ is the original client brief and archive; RTA-PREP.md and the brand
+# guidelines describe the real client by name.
+# ---------------------------------------------------------------------------
+handoff/
+RTA-PREP.md
+global-resources/brand-guidelines.md
+scripts/convert_july_data.py

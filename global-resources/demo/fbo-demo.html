@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ridgeline Aviation — Interactive Demo</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500;600;700&family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap');
+
+  :root {
+    --accent-classic: #C9A227;
+    --accent-modern: #D9AA3E;
+    --success: #2E8B57;
+  }
+  body.theme-classic {
+    --primary: #6E1E2C; --primary-deep: #551723; --accent: var(--accent-classic);
+    --ink: #2A2A2A; --paper: #FBFAF8; --muted: #6B6B6B; --line: #E7E3DD;
+    --font-display: 'Cormorant', Georgia, serif; --font-ui: 'Inter', system-ui, sans-serif;
+    --hero-bg: linear-gradient(180deg,#4C6B8A 0%,#7FA0BC 55%,#B9CBDA 100%);
+    --nav-bg: var(--primary); --nav-text: #fff;
+    --card-bg: #fff; --card-border: var(--line); --card-blur: none;
+    --headline-weight: 600; --radius-card: 12px;
+  }
+  body.theme-modern {
+    --primary: #7A2333; --primary-deep: #4A1520; --accent: var(--accent-modern);
+    --ink: #16181D; --paper: #FAF9F7; --muted: #7A8089; --line: rgba(22,24,29,0.08);
+    --font-display: 'Space Grotesk', 'Inter', sans-serif; --font-ui: 'Inter', system-ui, sans-serif;
+    --hero-bg: radial-gradient(circle at 20% 20%, rgba(122,35,51,0.55), transparent 55%), radial-gradient(circle at 80% 0%, rgba(217,170,62,0.25), transparent 45%), linear-gradient(160deg,#1B2230 0%, #0F1319 65%);
+    --nav-bg: rgba(20,24,31,0.7); --nav-text: #fff;
+    --card-bg: rgba(255,255,255,0.08); --card-border: rgba(255,255,255,0.18); --card-blur: blur(20px);
+    --headline-weight: 700; --radius-card: 20px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: var(--font-ui); color: var(--ink); background: var(--paper); transition: background 0.2s ease; }
+  h1,h2,h3 { font-family: var(--font-display); }
+  a { color: inherit; }
+
+  /* --- demo control bar (not part of the site itself) --- */
+  .demo-bar {
+    background: #14181F; color: #fff; padding: 10px 20px; display: flex; align-items: center;
+    justify-content: space-between; font-size: 13px; position: sticky; top: 0; z-index: 100;
+  }
+  .demo-bar .label { color: #9AA0A6; }
+  .demo-bar .label b { color: #D9AA3E; }
+  .theme-switch { display: flex; align-items: center; gap: 10px; }
+  .theme-switch button {
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); color: #fff;
+    padding: 7px 14px; border-radius: 999px; font-size: 12px; cursor: pointer; font-weight: 600;
+  }
+  .theme-switch button.active { background: #D9AA3E; color: #14181F; border-color: #D9AA3E; }
+
+  /* --- site nav --- */
+  header.nav { background: var(--nav-bg); backdrop-filter: var(--card-blur); position: sticky; top: 41px; z-index: 30; }
+  .nav-inner { max-width: 1200px; margin: 0 auto; padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; }
+  .logo-lockup { display: flex; align-items: center; gap: 12px; color: var(--nav-text); }
+  .logo-mark { width: 40px; height: 40px; border-radius: 50%; border: 2px solid var(--accent); display: flex; align-items: center; justify-content: center; font-family: var(--font-display); font-weight: 700; color: var(--accent); }
+  .logo-text .sub { display:block; font-size: 10px; letter-spacing: 0.14em; opacity: 0.7; }
+  .logo-text .big { font-family: var(--font-display); font-weight: var(--headline-weight); font-size: 18px; }
+  nav.pages ul { list-style: none; display: flex; gap: 26px; }
+  nav.pages a { color: var(--nav-text); text-decoration: none; font-size: 13px; font-weight: 500; opacity: 0.85; cursor: pointer; text-transform: uppercase; letter-spacing: 0.04em; padding-bottom: 4px; border-bottom: 2px solid transparent; }
+  nav.pages a:hover { opacity: 1; }
+  nav.pages a.active { opacity: 1; border-color: var(--accent); }
+
+  .page { display: none; }
+  .page.active { display: block; }
+
+  .btn { display: inline-flex; align-items: center; gap: 8px; padding: 13px 26px; border-radius: 999px; font-weight: 600; font-size: 14px; text-decoration: none; cursor: pointer; border: none; transition: transform .15s ease; }
+  .btn:hover { transform: translateY(-2px); }
+  .btn-primary { background: var(--accent); color: var(--primary-deep); }
+  .btn-ghost { background: rgba(120,120,120,0.1); color: var(--ink); }
+
+  /* --- hero --- */
+  .hero { position: relative; background: var(--hero-bg); padding: 80px 24px 120px; overflow: hidden; }
+  .hero-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1.3fr 0.9fr; gap: 40px; align-items: center; }
+  .hero h1 { font-size: 50px; font-weight: var(--headline-weight); line-height: 1.05; color: #fff; letter-spacing: -0.01em; }
+  .hero p.sub { margin-top: 18px; font-size: 16px; color: rgba(255,255,255,0.85); max-width: 460px; }
+  .hero-ctas { margin-top: 30px; display: flex; gap: 14px; }
+
+  .fuel-card { background: var(--card-bg); backdrop-filter: var(--card-blur); border: 1px solid var(--card-border); border-radius: var(--radius-card); padding: 26px; box-shadow: 0 25px 55px rgba(0,0,0,0.25); }
+  .fuel-card h3 { font-family: var(--font-ui); font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 16px; }
+  body.theme-modern .fuel-card h3 { color: rgba(255,255,255,0.6); }
+  .fuel-row { display: flex; justify-content: space-between; align-items: baseline; padding: 10px 0; border-bottom: 1px solid var(--card-border); }
+  .fuel-row:last-of-type { border-bottom: none; }
+  .fuel-label { font-size: 13px; color: var(--muted); }
+  body.theme-modern .fuel-label { color: rgba(255,255,255,0.65); }
+  .fuel-price { font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 21px; }
+  body.theme-modern .fuel-price { color: #fff; }
+  .fuel-updated { margin-top: 16px; display: flex; align-items: center; gap: 7px; font-size: 12px; color: var(--success); font-weight: 600; }
+  .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--success); }
+  .fuel-updated.flash { animation: flashUpdate 1.4s ease; }
+  @keyframes flashUpdate { 0% { color: var(--accent); } 100% { color: var(--success); } }
+  .price-flash { animation: priceFlash 1.4s ease; }
+  @keyframes priceFlash { 0% { background: rgba(217,170,62,0.35); } 100% { background: transparent; } }
+
+  section { padding: 70px 24px; }
+  .section-inner { max-width: 1200px; margin: 0 auto; }
+  .section-title { font-size: 32px; font-weight: var(--headline-weight); }
+  .section-lede { color: var(--muted); font-size: 15px; margin-top: 10px; max-width: 500px; }
+
+  .grid-3 { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; margin-top: 40px; }
+  .grid-5 { display: grid; grid-template-columns: repeat(5,1fr); gap: 20px; margin-top: 40px; }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius-card); padding: 24px; }
+
+  /* --- fueling page: AirportHQ upload demo --- */
+  .upload-panel { background: #14181F; color: #fff; border-radius: 20px; padding: 36px; margin-top: 50px; }
+  .upload-panel h3 { font-size: 20px; margin-bottom: 6px; }
+  .upload-panel p { color: rgba(255,255,255,0.6); font-size: 14px; max-width: 520px; }
+  .upload-row { margin-top: 26px; display: flex; gap: 14px; flex-wrap: wrap; align-items: center; }
+  .upload-row input[type=file] { color: #fff; font-size: 13px; }
+  .sample-block { margin-top: 20px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); border-radius: 10px; padding: 16px 18px; font-family: 'JetBrains Mono', monospace; font-size: 12.5px; color: #D9AA3E; overflow-x: auto; }
+  .upload-status { margin-top: 16px; font-size: 13px; color: #6FD19A; min-height: 18px; }
+
+  /* --- weather / airport info --- */
+  .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 40px; align-items: start; }
+  .weather-card, .quicklinks-card { background: #14181F; color: #fff; border-radius: var(--radius-card); padding: 30px; }
+  .weather-card h4, .quicklinks-card h4 { font-size: 16px; margin-bottom: 18px; }
+  .weather-status { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 20px; display: inline-block; padding: 4px 10px; border-radius: 999px; }
+  .weather-status.live { background: rgba(111,209,154,0.15); color: #6FD19A; }
+  .weather-status.demo { background: rgba(217,170,62,0.15); color: #D9AA3E; }
+  .weather-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; }
+  .weather-item .val { font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 21px; color: #D9AA3E; }
+  .weather-item .lab { font-size: 11px; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.06em; margin-top: 4px; }
+  .quicklinks-card ul { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+  .quicklinks-card a { text-decoration: none; color: #fff; font-size: 14px; font-weight: 500; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px; display: block; }
+
+  /* --- contact form --- */
+  .form-card { max-width: 560px; margin-top: 40px; background: #fff; border: 1px solid var(--line); border-radius: var(--radius-card); padding: 32px; }
+  .form-field { margin-bottom: 18px; }
+  .form-field label { display: block; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin-bottom: 6px; }
+  .form-field input, .form-field textarea, .form-field select {
+    width: 100%; padding: 12px 14px; border: 1px solid var(--line); border-radius: 8px; font-family: var(--font-ui); font-size: 14px;
+  }
+  .form-success { display: none; background: rgba(46,139,87,0.1); border: 1px solid var(--success); color: var(--success); padding: 16px 18px; border-radius: 10px; margin-top: 18px; font-size: 14px; font-weight: 600; }
+
+  /* --- mock data badge (dataviz-skill convention: never let mock data pass as real) --- */
+  .mock-badge { display: inline-flex; align-items: center; gap: 6px; font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: #D9AA3E; background: rgba(217,170,62,0.12); border: 1px solid rgba(217,170,62,0.3); padding: 5px 12px; border-radius: 999px; margin-bottom: 18px; }
+
+  /* --- fuel price trend chart (dataviz-skill palette, dark-surface set) --- */
+  .chart-panel { background: #1a1a19; color: #fff; border-radius: 20px; padding: 32px; margin-top: 32px; }
+  .chart-panel-head { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px; margin-bottom: 8px; }
+  .chart-panel h3 { font-size: 18px; margin-bottom: 4px; }
+  .chart-panel .chart-sub { color: #c3c2b7; font-size: 13px; }
+  .chart-legend { display: flex; gap: 18px; flex-wrap: wrap; }
+  .chart-legend .item { display: flex; align-items: center; gap: 7px; font-size: 12px; color: #c3c2b7; }
+  .chart-legend .swatch { width: 10px; height: 10px; border-radius: 2px; }
+  .chart-wrap { position: relative; margin-top: 20px; }
+  .chart-tooltip {
+    position: absolute; pointer-events: none; background: #0d0d0d; border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 8px; padding: 10px 14px; font-size: 12px; color: #fff; opacity: 0; transition: opacity .1s ease;
+    white-space: nowrap; z-index: 5; box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+  }
+  .chart-tooltip .tt-date { color: #898781; font-size: 11px; margin-bottom: 6px; }
+  .chart-tooltip .tt-row { display: flex; align-items: center; gap: 7px; margin-top: 3px; }
+  .chart-tooltip .tt-swatch { width: 8px; height: 8px; border-radius: 2px; }
+  .chart-tooltip .tt-val { font-family: 'JetBrains Mono', monospace; margin-left: auto; padding-left: 14px; }
+
+  /* --- local businesses directory --- */
+  .filter-pills { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 28px; }
+  .pill { background: rgba(120,120,120,0.1); border: 1px solid var(--line); color: var(--ink); padding: 8px 16px; border-radius: 999px; font-size: 13px; font-weight: 600; cursor: pointer; }
+  .pill.active { background: var(--accent); border-color: var(--accent); color: var(--primary-deep); }
+  .biz-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 22px; margin-top: 30px; }
+  .biz-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius-card); padding: 24px; }
+  .biz-card .biz-cat { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); font-weight: 700; margin-bottom: 8px; }
+  .biz-card h4 { font-size: 17px; margin-bottom: 8px; }
+  .biz-card p { font-size: 13.5px; color: var(--muted); margin-bottom: 14px; line-height: 1.5; }
+  .biz-card .biz-contact { font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 12px; }
+  .biz-card.hidden { display: none; }
+
+  footer { background: #0D0F13; color: rgba(255,255,255,0.5); padding: 48px 24px; font-size: 13px; }
+  .footer-inner { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; }
+  footer a { color: #fff; text-decoration: none; }
+
+  /* --- quick-reference strip: for a planner at a desk, not a pilot glancing mid-taxi.
+     Persistent across every page — the facts a dispatcher checks first, before any marketing copy. --- */
+  .quickref { background: #14181F; border-bottom: 1px solid rgba(255,255,255,0.08); }
+  .quickref-inner { max-width: 1200px; margin: 0 auto; padding: 14px 24px; display: flex; gap: 36px; flex-wrap: wrap; align-items: center; }
+  .quickref-item { display: flex; align-items: baseline; gap: 8px; }
+  .quickref-item .qlab { font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; color: #7A8089; }
+  .quickref-item .qval { font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 600; color: #fff; }
+  .quickref-item .qval.accent { color: #D9AA3E; }
+
+  /* --- planner-facing field data + print (Airport Info page) --- */
+  .field-data-list { display: flex; flex-direction: column; gap: 0; }
+  .field-data-list .fd-row { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.08); font-size: 13.5px; }
+  .field-data-list .fd-row:last-child { border-bottom: none; }
+  .field-data-list .fd-label { color: rgba(255,255,255,0.55); }
+  .field-data-list .fd-val { font-family: 'JetBrains Mono', monospace; color: #fff; }
+  .print-btn { margin-top: 18px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); color: #fff; padding: 10px 18px; border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer; }
+
+  @media print {
+    .demo-bar, .quickref, header.nav, .hero, footer, .upload-panel, .chart-panel, nav.pages { display: none !important; }
+    .page { display: block !important; }
+  }
+
+  /* ================================================================
+     MANAGEMENT DASHBOARD (AirportHQ) — deliberately its OWN brand,
+     not themed by Classic/Modern. This is where prices actually get
+     updated; the public site (below) only ever displays what this
+     surface last published. See "Two brands, not one" in
+     brand-guidelines.md.
+     ================================================================ */
+  :root {
+    --hq-primary: #1B2B44;
+    --hq-primary-dark: #121E30;
+    --hq-accent: #E0A526;
+    --hq-success: #2E8B57;
+    --hq-bg: #F5F6F8;
+    --hq-panel: #FFFFFF;
+    --hq-text: #1C1F26;
+    --hq-muted: #626A78;
+    --hq-border: #DEE2E8;
+  }
+  #management-view { display: none; font-family: 'Inter', system-ui, sans-serif; background: var(--hq-bg); color: var(--hq-text); min-height: 100vh; }
+  #management-view.active { display: block; }
+  .hq-topbar { background: var(--hq-primary); color: #fff; padding: 16px 28px; display: flex; align-items: center; justify-content: space-between; }
+  .hq-brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 16px; }
+  .hq-brand .hq-amber { color: var(--hq-accent); }
+  .hq-tenant { font-size: 12px; color: rgba(255,255,255,0.6); padding: 5px 12px; border: 1px solid rgba(255,255,255,0.2); border-radius: 999px; }
+  .hq-body { max-width: 1100px; margin: 0 auto; padding: 40px 28px; }
+  .hq-tabs { display: flex; gap: 4px; margin-bottom: 28px; border-bottom: 1px solid var(--hq-border); }
+  .hq-tab { padding: 10px 18px; font-size: 13px; font-weight: 600; color: var(--hq-muted); border-bottom: 2px solid transparent; cursor: default; }
+  .hq-tab.active { color: var(--hq-primary); border-color: var(--hq-accent); }
+  .hq-stats { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; margin-bottom: 8px; }
+  .hq-stat { background: var(--hq-panel); border: 1px solid var(--hq-border); border-radius: 12px; padding: 20px; }
+  .hq-stat .hq-lab { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--hq-muted); margin-bottom: 8px; }
+  .hq-stat .hq-val { font-family: 'JetBrains Mono', monospace; font-size: 26px; font-weight: 600; color: var(--hq-primary); }
+  .hq-panel-box { background: var(--hq-panel); border: 1px solid var(--hq-border); border-radius: 12px; padding: 28px; margin-top: 24px; }
+  .hq-panel-box h3 { font-size: 16px; margin-bottom: 6px; color: var(--hq-text); }
+  .hq-panel-box p.hq-sub { color: var(--hq-muted); font-size: 13.5px; max-width: 560px; }
+  .hq-log { margin-top: 24px; }
+  .hq-log-row { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid var(--hq-border); font-size: 13px; }
+  .hq-log-row:last-child { border-bottom: none; }
+  .hq-log-row .hq-log-date { color: var(--hq-muted); }
+  .hq-log-row .hq-log-vals { font-family: 'JetBrains Mono', monospace; color: var(--hq-text); }
+  .hq-btn { background: var(--hq-accent); color: var(--hq-primary-dark); border: none; padding: 12px 22px; border-radius: 8px; font-weight: 700; font-size: 13px; cursor: pointer; }
+  .hq-badge-live { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--hq-success); font-weight: 600; }
+  .hq-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--hq-success); }
+
+  @media (max-width: 900px) {
+    .hero-inner, .info-grid { grid-template-columns: 1fr; }
+    .grid-3, .grid-5, .biz-grid { grid-template-columns: repeat(2,1fr); }
+    nav.pages { display: none; }
+    .quickref-inner { gap: 18px; }
+  }
+</style>
+</head>
+<body class="theme-modern" id="body">
+
+<div class="demo-bar">
+  <div class="label">Interactive demo for <b>Ridgeline Aviation</b> — prices are updated from the Management Dashboard, not the public site</div>
+  <div style="display:flex;gap:20px;align-items:center;">
+    <div class="theme-switch" id="theme-switch-group">
+      <button id="btn-classic" onclick="setTheme('classic')">Classic</button>
+      <button id="btn-modern" onclick="setTheme('modern')" class="active">Modern</button>
+    </div>
+    <div class="theme-switch">
+      <button id="btn-view-public" onclick="setViewMode('public')" class="active">🌐 Public Site</button>
+      <button id="btn-view-mgmt" onclick="setViewMode('management')">🔧 Management Dashboard</button>
+    </div>
+  </div>
+</div>
+
+<div id="public-view" class="active">
+<header class="nav">
+  <div class="nav-inner">
+    <div class="logo-lockup">
+      <div class="logo-mark">SV</div>
+      <div class="logo-text"><span class="sub">SUMMIT JET CENTER</span><span class="big">Ridgeline Aviation</span></div>
+    </div>
+    <nav class="pages"><ul>
+      <li><a onclick="showPage('home')" class="page-link active" data-page="home">Home</a></li>
+      <li><a onclick="showPage('fueling')" class="page-link" data-page="fueling">Fueling</a></li>
+      <li><a onclick="showPage('airport')" class="page-link" data-page="airport">Airport Info</a></li>
+      <li><a onclick="showPage('maintenance')" class="page-link" data-page="maintenance">Maintenance</a></li>
+      <li><a onclick="showPage('local')" class="page-link" data-page="local">Local Businesses</a></li>
+      <li><a onclick="showPage('contact')" class="page-link" data-page="contact">Contact</a></li>
+    </ul></nav>
+  </div>
+</header>
+
+<!-- Persistent quick-reference strip — the facts a flight planner scans first, on every page -->
+<div class="quickref">
+  <div class="quickref-inner">
+    <div class="quickref-item"><span class="qlab">Hours</span><span class="qval">Mon–Fri 8–5 · Sat 8–12</span></div>
+    <div class="quickref-item"><span class="qlab">After-Hours</span><span class="qval accent">Call-out, $100 fee</span></div>
+    <div class="quickref-item"><span class="qlab">CTAF/Unicom</span><span class="qval">122.8</span></div>
+    <div class="quickref-item"><span class="qlab">Phone</span><span class="qval"><a href="tel:5555550100" style="color:inherit;text-decoration:none;">(555) 555-0100</a></span></div>
+    <div class="quickref-item"><span class="qlab">100LL</span><span class="qval accent" data-field="100ll">$6.19</span></div>
+    <div class="quickref-item"><span class="qlab">Jet A</span><span class="qval accent" data-field="jetA_full">$6.55</span></div>
+  </div>
+</div>
+
+<!-- HOME -->
+<div class="page active" id="page-home">
+  <section class="hero">
+    <div class="hero-inner">
+      <div>
+        <h1>Fuel, service, and trust — every landing.</h1>
+        <p class="sub">Ridgeline Aviation & Summit Jet Center — FBO and aircraft maintenance at KXRG. Planning a trip in? Current pricing and field data are above, no need to call ahead just to check.</p>
+        <div class="hero-ctas">
+          <button class="btn btn-primary" onclick="showPage('fueling')">View Fuel Prices</button>
+          <button class="btn btn-ghost" onclick="showPage('contact')">Request Fuel</button>
+        </div>
+      </div>
+      <div class="fuel-card" id="home-fuel-card">
+        <h3>Current Fuel Prices</h3>
+        <div class="fuel-row"><span class="fuel-label">100LL Self-Serve</span><span class="fuel-price" data-field="100ll">$6.19</span></div>
+        <div class="fuel-row"><span class="fuel-label">Jet A Full-Serve</span><span class="fuel-price" data-field="jetA_full">$6.55</span></div>
+        <div class="fuel-row"><span class="fuel-label">Jet A Self-Serve</span><span class="fuel-price" data-field="jetA_self">$6.35</span></div>
+        <div class="fuel-updated" data-field="updated"><span class="dot"></span> Updated 2 hours ago · via AirportHQ</div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="section-inner">
+      <h2 class="section-title">Everything the ramp needs, handled.</h2>
+      <p class="section-lede">Ten services, one crew.</p>
+      <div class="grid-5">
+        <div class="card">✈ <br><br><strong>Ramp Parking</strong></div>
+        <div class="card">↻ <br><br><strong>Quick Turn</strong></div>
+        <div class="card">⛽ <br><br><strong>Line Service</strong></div>
+        <div class="card">❄ <br><br><strong>De-Icing</strong></div>
+        <div class="card">🏠 <br><br><strong>Heated Hangars</strong></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- FUELING -->
+<div class="page" id="page-fueling">
+  <section>
+    <div class="section-inner">
+      <h2 class="section-title">Fuel & FBO Services</h2>
+      <p class="section-lede">Self-serve and full-serve, 100LL and Jet A. Hours Mon–Fri 8am–5pm, Sat 8am–12pm. After-hours call-out: $100.</p>
+
+      <div class="grid-3">
+        <div class="card"><div style="font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px;">100LL Self-Serve</div><div class="fuel-price" style="font-size:28px;" data-field="100ll">$6.19</div></div>
+        <div class="card"><div style="font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px;">Jet A Full-Serve</div><div class="fuel-price" style="font-size:28px;" data-field="jetA_full">$6.55</div></div>
+        <div class="card"><div style="font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px;">Jet A Self-Serve</div><div class="fuel-price" style="font-size:28px;" data-field="jetA_self">$6.35</div></div>
+      </div>
+
+      <div class="card" style="margin-top:24px;">
+        <h4 style="font-family:var(--font-display);font-size:17px;margin-bottom:12px;">Planning notes</h4>
+        <div class="field-data-list" style="color:var(--ink);">
+          <div class="fd-row" style="border-color:var(--line);"><span class="fd-label" style="color:var(--muted);">Self-serve availability</span><span class="fd-val" style="color:var(--ink);">24/7, card reader on pump</span></div>
+          <div class="fd-row" style="border-color:var(--line);"><span class="fd-label" style="color:var(--muted);">Full-serve / line service</span><span class="fd-val" style="color:var(--ink);">Mon–Fri 8am–5pm, Sat 8am–12pm</span></div>
+          <div class="fd-row" style="border-color:var(--line);"><span class="fd-label" style="color:var(--muted);">After-hours call-out</span><span class="fd-val" style="color:var(--ink);">$100 fee — call (555) 555-0100</span></div>
+          <div class="fd-row" style="border-color:var(--line);"><span class="fd-label" style="color:var(--muted);">Fuel truck (ramp delivery)</span><span class="fd-val" style="color:var(--ink);">Available during staffed hours — request via Contact</span></div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:24px;display:flex;align-items:center;gap:10px;">
+        <span class="fuel-updated" data-field="updated" style="margin-top:0;"><span class="dot"></span> Updated 2 hours ago · via AirportHQ</span>
+        <span style="color:var(--muted);font-size:12.5px;">— published from Ridgeline's management dashboard, never edited here directly.</span>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- AIRPORT INFO -->
+<div class="page" id="page-airport">
+  <section>
+    <div class="section-inner">
+      <h2 class="section-title">Airport Info & Flight Planning</h2>
+      <p class="section-lede">KXRG — Ridgeline Regional Airport. Built for the person building the trip packet, not just the pilot flying it — everything below is copy-and-paste or print-ready.</p>
+      <div class="info-grid">
+        <div class="weather-card">
+          <span class="weather-status demo" id="weather-status">DEMO DATA</span>
+          <h4>KXRG Current Conditions</h4>
+          <div class="weather-grid" id="weather-grid">
+            <div class="weather-item"><div class="val">240° 8kt</div><div class="lab">Wind</div></div>
+            <div class="weather-item"><div class="val">10 SM</div><div class="lab">Visibility</div></div>
+            <div class="weather-item"><div class="val">CLR</div><div class="lab">Ceiling</div></div>
+            <div class="weather-item"><div class="val">24°C</div><div class="lab">Temp</div></div>
+            <div class="weather-item"><div class="val">30.08"</div><div class="lab">Altimeter</div></div>
+            <div class="weather-item"><div class="val">6,204'</div><div class="lab">Elevation</div></div>
+          </div>
+          <p class="source-note">Live METAR via aviationweather.gov — refreshes automatically, so this page is safe to bookmark instead of re-checking a doc someone else maintains.</p>
+        </div>
+        <div class="weather-card">
+          <h4>Field Data</h4>
+          <div class="field-data-list">
+            <div class="fd-row"><span class="fd-label">Identifiers</span><span class="fd-val">KXRG / XRG</span></div>
+            <div class="fd-row"><span class="fd-label">Runway</span><span class="fd-val">1/19, 6,300' × 75', asphalt</span></div>
+            <div class="fd-row"><span class="fd-label">Field elevation</span><span class="fd-val">6,204'</span></div>
+            <div class="fd-row"><span class="fd-label">Traffic pattern alt.</span><span class="fd-val">7,200' MSL</span></div>
+            <div class="fd-row"><span class="fd-label">CTAF / Unicom</span><span class="fd-val">122.8</span></div>
+            <div class="fd-row"><span class="fd-label">Lighting</span><span class="fd-val">MIRL, pilot-controlled</span></div>
+          </div>
+          <button class="print-btn" onclick="window.print()">🖨 Print / Save Field Data</button>
+        </div>
+        <div class="quicklinks-card">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="https://www.flightaware.com/resources/airport/KXRG" target="_blank">FlightAware — KXRG ↗</a></li>
+            <li><a href="http://www.airnav.com/airport/KXRG" target="_blank">AirNav — KXRG ↗</a></li>
+            <li><a href="https://www.liveatc.net" target="_blank">LiveATC ↗</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- MAINTENANCE -->
+<div class="page" id="page-maintenance">
+  <section>
+    <div class="section-inner">
+      <h2 class="section-title">Aircraft Maintenance</h2>
+      <p class="section-lede">Single and twin engine specialists — annual inspections, engine overhauls, restorations.</p>
+      <div class="grid-3">
+        <div class="card"><strong>Bobby Wells</strong><br><span style="color:var(--muted);font-size:13px;">A&P/IA · Lead Mechanic</span></div>
+        <div class="card"><strong>Jack Buckley</strong><br><span style="color:var(--muted);font-size:13px;">A&P · Maintenance</span></div>
+        <div class="card"><strong>Supported airframes</strong><br><span style="color:var(--muted);font-size:13px;">Cessna · Cirrus · Mooney & more</span></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- LOCAL BUSINESSES -->
+<div class="page" id="page-local">
+  <section>
+    <div class="section-inner">
+      <div class="mock-badge">● Example listings — not real businesses, for demo purposes</div>
+      <h2 class="section-title">Businesses on the Field</h2>
+      <p class="section-lede">Flight schools, detailers, and other operators based at KXRG — a directory AirportHQ can host for the whole airport, not just the FBO. Good for pilots, and it's a reason for the airport authority (not just Ridgeline) to want this platform live.</p>
+
+      <div class="filter-pills" id="filter-pills">
+        <button class="pill active" data-cat="all" onclick="filterBusinesses('all')">All</button>
+        <button class="pill" data-cat="flight-school" onclick="filterBusinesses('flight-school')">Flight Schools</button>
+        <button class="pill" data-cat="detailing" onclick="filterBusinesses('detailing')">Aircraft Detailing</button>
+        <button class="pill" data-cat="avionics" onclick="filterBusinesses('avionics')">Avionics</button>
+        <button class="pill" data-cat="other" onclick="filterBusinesses('other')">Other</button>
+      </div>
+
+      <div class="biz-grid" id="biz-grid"></div>
+    </div>
+  </section>
+</div>
+
+<!-- CONTACT -->
+<div class="page" id="page-contact">
+  <section>
+    <div class="section-inner">
+      <h2 class="section-title">Request Fuel / Get in Touch</h2>
+      <p class="section-lede">Planning a trip in? Submit the details ahead of time and we'll have fuel staged — no need to relay this by phone or bury it in an email.</p>
+      <form class="form-card" id="contact-form" onsubmit="return submitForm(event)">
+        <div class="form-field"><label>Submitted By</label><input type="text" placeholder="Dispatcher / flight planner name" required></div>
+        <div class="form-field"><label>Tail Number</label><input type="text" placeholder="N12345" required></div>
+        <div class="form-field"><label>Aircraft Type</label><input type="text" placeholder="e.g. Citation CJ3, King Air 350"></div>
+        <div class="form-field"><label>ETA</label><input type="text" placeholder="3:00 PM today" required></div>
+        <div class="form-field"><label>Fuel Needed</label><select><option>100LL</option><option>Jet A</option></select></div>
+        <div class="form-field"><label>Notes</label><textarea rows="3" placeholder="Gallons, self-serve vs full-serve, anything else"></textarea></div>
+        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Submit Request</button>
+        <div class="form-success" id="form-success">✓ Request received — this would land directly in the AirportHQ dashboard, not an inbox.</div>
+      </form>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div>Ridgeline Aviation & Summit Jet Center · Ridgeline Regional (KXRG)</div>
+    <div><a href="tel:5555550100">(555) 555-0100</a></div>
+  </div>
+</footer>
+</div><!-- /#public-view -->
+
+<!-- ================= MANAGEMENT DASHBOARD (AirportHQ) ================= -->
+<div id="management-view">
+  <div class="hq-topbar">
+    <div class="hq-brand">◎ Airport<span class="hq-amber">HQ</span></div>
+    <div class="hq-tenant">Ridgeline Aviation</div>
+  </div>
+  <div class="hq-body">
+    <div class="hq-tabs">
+      <div class="hq-tab active">Fuel Pricing</div>
+      <div class="hq-tab">Requests</div>
+      <div class="hq-tab">Settings</div>
+    </div>
+
+    <div class="hq-stats">
+      <div class="hq-stat"><div class="hq-lab">100LL Self-Serve</div><div class="hq-val" data-field="100ll">$6.19</div></div>
+      <div class="hq-stat"><div class="hq-lab">Jet A Full-Serve</div><div class="hq-val" data-field="jetA_full">$6.55</div></div>
+      <div class="hq-stat"><div class="hq-lab">Jet A Self-Serve</div><div class="hq-val" data-field="jetA_self">$6.35</div></div>
+    </div>
+    <div style="margin:10px 2px;"><span class="hq-badge-live" data-field="updated"><span class="hq-dot"></span> Live on ridgeline-aviation.example · updated 2 hours ago</span></div>
+
+    <div class="hq-panel-box">
+      <h3>Update pricing</h3>
+      <p class="hq-sub">Upload the same CSV export you already pull from your fuel-tracking sheet. This is the only place prices get updated — the public site just displays whatever was last published here.</p>
+      <div class="upload-row" style="margin-top:20px;">
+        <button class="hq-btn" onclick="loadSampleCSV()">▶ Load Sample CSV</button>
+        <input type="file" id="csv-input" accept=".csv" onchange="handleFileUpload(event)">
+      </div>
+      <div class="sample-block" id="sample-preview" style="background:#F0F1F3;color:#1B2B44;border-color:var(--hq-border);margin-top:16px;">date,100ll,jetA_full,jetA_self
+2026-08-18,6.09,6.45,6.25</div>
+      <div class="upload-status" id="upload-status" style="color:var(--hq-success);"></div>
+    </div>
+
+    <div class="hq-panel-box">
+      <div class="mock-badge" style="color:var(--hq-accent);background:rgba(224,165,38,0.12);border-color:rgba(224,165,38,0.3);">● Mock data — 14-day sample history</div>
+      <div class="chart-panel-head" style="margin-bottom:0;">
+        <div>
+          <h3>Price history</h3>
+          <p class="hq-sub">Every upload becomes a point here — this is the internal view; a simplified public trend chart is a Plan 2 option, not built by default.</p>
+        </div>
+        <div class="chart-legend" id="chart-legend"></div>
+      </div>
+      <div class="chart-wrap" id="chart-wrap" style="background:var(--hq-primary);border-radius:12px;padding:16px;margin-top:16px;"></div>
+    </div>
+
+    <div class="hq-panel-box">
+      <h3>Recent activity</h3>
+      <div class="hq-log" id="hq-log"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function setTheme(t) {
+    document.getElementById('body').className = 'theme-' + t;
+    document.getElementById('btn-classic').classList.toggle('active', t === 'classic');
+    document.getElementById('btn-modern').classList.toggle('active', t === 'modern');
+  }
+
+  function setViewMode(mode) {
+    document.getElementById('public-view').classList.toggle('active', mode === 'public');
+    document.getElementById('management-view').classList.toggle('active', mode === 'management');
+    document.getElementById('btn-view-public').classList.toggle('active', mode === 'public');
+    document.getElementById('btn-view-mgmt').classList.toggle('active', mode === 'management');
+    // Classic/Modern only styles the public site — AirportHQ's dashboard brand doesn't change with it.
+    document.getElementById('theme-switch-group').style.opacity = mode === 'management' ? '0.35' : '1';
+    document.getElementById('theme-switch-group').style.pointerEvents = mode === 'management' ? 'none' : 'auto';
+    if (mode === 'management') { drawFuelChart(); renderHQLog(); }
+    window.scrollTo({top: 0});
+  }
+
+  function renderHQLog() {
+    const log = document.getElementById('hq-log');
+    if (!log) return;
+    const recent = fuelHistory.slice(-5).reverse();
+    log.innerHTML = recent.map(d =>
+      `<div class="hq-log-row"><span class="hq-log-date">${d.date === 'now' ? 'Just now' : d.date}</span><span class="hq-log-vals">100LL $${d['100ll'].toFixed(2)} · Jet A Full $${d.jetA_full.toFixed(2)} · Jet A Self $${d.jetA_self.toFixed(2)}</span></div>`
+    ).join('');
+  }
+
+  function showPage(name) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    document.getElementById('page-' + name).classList.add('active');
+    document.querySelectorAll('.page-link').forEach(l => l.classList.toggle('active', l.dataset.page === name));
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
+
+  function applyPrices(prices) {
+    document.querySelectorAll('[data-field="100ll"]').forEach(el => { el.textContent = '$' + prices['100ll']; el.closest('.card,.fuel-row,.hq-stat')?.classList.add('price-flash'); });
+    document.querySelectorAll('[data-field="jetA_full"]').forEach(el => { el.textContent = '$' + prices.jetA_full; el.closest('.card,.fuel-row,.hq-stat')?.classList.add('price-flash'); });
+    document.querySelectorAll('[data-field="jetA_self"]').forEach(el => { el.textContent = '$' + prices.jetA_self; el.closest('.card,.fuel-row,.hq-stat')?.classList.add('price-flash'); });
+    document.querySelectorAll('[data-field="updated"]').forEach(el => {
+      el.innerHTML = '<span class="dot"></span> Updated just now · via AirportHQ';
+      el.classList.add('flash');
+    });
+    setTimeout(() => document.querySelectorAll('.price-flash').forEach(el => el.classList.remove('price-flash')), 1400);
+  }
+
+  function parseCSV(text) {
+    const lines = text.trim().split('\\n');
+    const headers = lines[0].split(',').map(h => h.trim());
+    const values = lines[1].split(',').map(v => v.trim());
+    const row = {};
+    headers.forEach((h, i) => row[h] = values[i]);
+    return { '100ll': row['100ll'], jetA_full: row['jetA_full'], jetA_self: row['jetA_self'] };
+  }
+
+  function loadSampleCSV() {
+    const d100 = (5.9 + Math.random()*0.4).toFixed(2);
+    const dFull = (6.2 + Math.random()*0.4).toFixed(2);
+    const dSelf = (6.0 + Math.random()*0.4).toFixed(2);
+    const sample = "date,100ll,jetA_full,jetA_self\\n2026-08-18," + d100 + "," + dFull + "," + dSelf;
+    document.getElementById('sample-preview').textContent = sample;
+    const prices = parseCSV(sample);
+    applyPrices(prices);
+    pushHistoryPoint(prices);
+    document.getElementById('upload-status').textContent = '✓ Parsed and applied — every page now shows this price, no code touched.';
+  }
+
+  function handleFileUpload(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = e => {
+      try {
+        const prices = parseCSV(e.target.result);
+        document.getElementById('sample-preview').textContent = e.target.result;
+        applyPrices(prices);
+        pushHistoryPoint(prices);
+        document.getElementById('upload-status').textContent = '✓ ' + file.name + ' parsed and applied.';
+      } catch (err) {
+        document.getElementById('upload-status').textContent = '⚠ Could not parse that file — expected columns: date,100ll,jetA_full,jetA_self';
+      }
+    };
+    reader.readAsText(file);
+  }
+
+  // ---------- Fuel price history chart (dataviz-skill: first-3-slots categorical, validated all-pairs) ----------
+  // Colors are the dark-mode categorical steps (slots 1-2-3), validated against surface #1a1a19.
+  const SERIES = [
+    { key: '100ll',     label: '100LL Self-Serve',  color: '#3987e5' },
+    { key: 'jetA_full', label: 'Jet A Full-Serve',  color: '#d95926' },
+    { key: 'jetA_self', label: 'Jet A Self-Serve',  color: '#199e70' },
+  ];
+
+  let fuelHistory = [
+    { date: '08/05', '100ll': 5.99, jetA_full: 6.35, jetA_self: 6.15 },
+    { date: '08/06', '100ll': 6.02, jetA_full: 6.38, jetA_self: 6.18 },
+    { date: '08/07', '100ll': 6.05, jetA_full: 6.40, jetA_self: 6.20 },
+    { date: '08/08', '100ll': 6.01, jetA_full: 6.42, jetA_self: 6.22 },
+    { date: '08/09', '100ll': 6.08, jetA_full: 6.44, jetA_self: 6.24 },
+    { date: '08/10', '100ll': 6.10, jetA_full: 6.46, jetA_self: 6.26 },
+    { date: '08/11', '100ll': 6.12, jetA_full: 6.48, jetA_self: 6.28 },
+    { date: '08/12', '100ll': 6.15, jetA_full: 6.50, jetA_self: 6.30 },
+    { date: '08/13', '100ll': 6.13, jetA_full: 6.49, jetA_self: 6.29 },
+    { date: '08/14', '100ll': 6.16, jetA_full: 6.51, jetA_self: 6.31 },
+    { date: '08/15', '100ll': 6.14, jetA_full: 6.52, jetA_self: 6.32 },
+    { date: '08/16', '100ll': 6.17, jetA_full: 6.53, jetA_self: 6.33 },
+    { date: '08/17', '100ll': 6.20, jetA_full: 6.54, jetA_self: 6.34 },
+    { date: '08/18', '100ll': 6.19, jetA_full: 6.55, jetA_self: 6.35 },
+  ];
+
+  function pushHistoryPoint(prices) {
+    fuelHistory.push({
+      date: 'now',
+      '100ll': parseFloat(prices['100ll']),
+      jetA_full: parseFloat(prices.jetA_full),
+      jetA_self: parseFloat(prices.jetA_self),
+    });
+    if (fuelHistory.length > 16) fuelHistory.shift(); // keep the chart readable
+    drawFuelChart();
+    renderHQLog();
+  }
+
+  function drawFuelChart() {
+    const wrap = document.getElementById('chart-wrap');
+    if (!wrap) return;
+    const W = 700, H = 240, padL = 46, padR = 54, padT = 16, padB = 30;
+    const plotW = W - padL - padR, plotH = H - padT - padB;
+    const n = fuelHistory.length;
+
+    const allVals = fuelHistory.flatMap(d => SERIES.map(s => d[s.key]));
+    const rawMin = Math.min(...allVals), rawMax = Math.max(...allVals);
+    const yMin = Math.floor(rawMin * 10) / 10 - 0.1;
+    const yMax = Math.ceil(rawMax * 10) / 10 + 0.1;
+    const yFor = v => padT + plotH - ((v - yMin) / (yMax - yMin)) * plotH;
+    const xFor = i => padL + (i / (n - 1)) * plotW;
+
+    // gridlines (hairline, 4 steps, recessive)
+    const gridSteps = 4;
+    let gridlines = '';
+    for (let g = 0; g <= gridSteps; g++) {
+      const v = yMin + (g / gridSteps) * (yMax - yMin);
+      const y = yFor(v);
+      gridlines += `<line x1="${padL}" y1="${y}" x2="${W-padR}" y2="${y}" stroke="#2c2c2a" stroke-width="1"/>`;
+      gridlines += `<text x="${padL-10}" y="${y+4}" text-anchor="end" font-size="10" fill="#898781" font-family="Inter, sans-serif">$${v.toFixed(2)}</text>`;
+    }
+
+    // x labels: first, middle, last only (avoid clutter)
+    let xLabels = '';
+    [0, Math.floor((n-1)/2), n-1].forEach(i => {
+      xLabels += `<text x="${xFor(i)}" y="${H-8}" text-anchor="middle" font-size="10" fill="#898781" font-family="Inter, sans-serif">${fuelHistory[i].date}</text>`;
+    });
+
+    let lines = '', points = '', endLabels = '';
+    SERIES.forEach(s => {
+      const path = fuelHistory.map((d,i) => `${i===0?'M':'L'} ${xFor(i)} ${yFor(d[s.key])}`).join(' ');
+      lines += `<path d="${path}" fill="none" stroke="${s.color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>`;
+      fuelHistory.forEach((d,i) => {
+        points += `<circle class="pt" data-idx="${i}" cx="${xFor(i)}" cy="${yFor(d[s.key])}" r="4" fill="${s.color}" stroke="#1a1a19" stroke-width="2" opacity="0"/>`;
+      });
+      const last = fuelHistory[n-1];
+      endLabels += `<circle cx="${xFor(n-1)}" cy="${yFor(last[s.key])}" r="4" fill="${s.color}" stroke="#1a1a19" stroke-width="2"/>`;
+      endLabels += `<text x="${xFor(n-1)+10}" y="${yFor(last[s.key])+4}" font-size="11" fill="#c3c2b7" font-family="'JetBrains Mono',monospace">$${last[s.key].toFixed(2)}</text>`;
+    });
+
+    wrap.innerHTML = `
+      <svg id="fuel-chart-svg" width="100%" height="240" viewBox="0 0 ${W} ${H}" style="overflow:visible;display:block;">
+        ${gridlines}${xLabels}${lines}${points}${endLabels}
+        <line id="crosshair" x1="0" y1="${padT}" x2="0" y2="${H-padB}" stroke="rgba(255,255,255,0.25)" stroke-width="1" opacity="0"/>
+        <rect x="${padL}" y="${padT}" width="${plotW}" height="${plotH}" fill="transparent" id="hover-rect"/>
+      </svg>
+      <div class="chart-tooltip" id="chart-tooltip"></div>
+    `;
+
+    const svg = document.getElementById('fuel-chart-svg');
+    const hoverRect = document.getElementById('hover-rect');
+    const crosshair = document.getElementById('crosshair');
+    const tooltip = document.getElementById('chart-tooltip');
+
+    hoverRect.addEventListener('mousemove', (e) => {
+      const rect = svg.getBoundingClientRect();
+      const xPx = e.clientX - rect.left;
+      const xUnits = (xPx / rect.width) * W;
+      let idx = Math.round(((xUnits - padL) / plotW) * (n - 1));
+      idx = Math.max(0, Math.min(n - 1, idx));
+
+      svg.querySelectorAll('circle.pt').forEach(c => c.setAttribute('opacity', c.dataset.idx == idx ? '1' : '0'));
+      const cx = xFor(idx);
+      crosshair.setAttribute('x1', cx); crosshair.setAttribute('x2', cx); crosshair.setAttribute('opacity', '1');
+
+      const d = fuelHistory[idx];
+      tooltip.innerHTML = `<div class="tt-date">${d.date === 'now' ? 'Just uploaded' : d.date}</div>` +
+        SERIES.map(s => `<div class="tt-row"><span class="tt-swatch" style="background:${s.color}"></span>${s.label}<span class="tt-val">$${d[s.key].toFixed(2)}</span></div>`).join('');
+      tooltip.style.opacity = '1';
+      const wrapRect = wrap.getBoundingClientRect();
+      let left = (cx / W) * wrapRect.width + 16;
+      if (left > wrapRect.width - 180) left = (cx / W) * wrapRect.width - 190;
+      tooltip.style.left = left + 'px';
+      tooltip.style.top = '10px';
+    });
+    hoverRect.addEventListener('mouseleave', () => {
+      svg.querySelectorAll('circle.pt').forEach(c => c.setAttribute('opacity', '0'));
+      crosshair.setAttribute('opacity', '0');
+      tooltip.style.opacity = '0';
+    });
+
+    document.getElementById('chart-legend').innerHTML = SERIES.map(s =>
+      `<div class="item"><span class="swatch" style="background:${s.color}"></span>${s.label}</div>`
+    ).join('');
+  }
+
+  // ---------- Local businesses directory (mock data, clearly labeled as example) ----------
+  const BUSINESSES = [
+    { name: 'Ridgeline Flight Training', cat: 'flight-school', catLabel: 'Flight School', desc: 'Private through commercial instruction, based on-field. Discovery flights available.', contact: '(555) 555-0142 · Hangar 3' },
+    { name: 'Elevation CFI Services', cat: 'flight-school', catLabel: 'Flight School', desc: 'Independent CFI offering tailwheel and mountain-flying endorsements.', contact: '(555) 555-0187' },
+    { name: 'Ramp Shine Aircraft Detailing', cat: 'detailing', catLabel: 'Detailing', desc: 'Full exterior wash, wax, and interior detail. Mobile — comes to your tie-down.', contact: '(555) 555-0119' },
+    { name: 'Valley Aircraft Wash Co.', cat: 'detailing', catLabel: 'Detailing', desc: 'Weekly wash packages for based aircraft, billed monthly.', contact: '(555) 555-0163' },
+    { name: 'Peak Avionics', cat: 'avionics', catLabel: 'Avionics', desc: 'ADS-B installs, panel upgrades, and troubleshooting by appointment.', contact: '(555) 555-0128 · Hangar 7' },
+    { name: 'Ridgeline Aircraft Rental', cat: 'other', catLabel: 'Rental', desc: 'Wet-leased 172 and Archer available by the hour for rated pilots.', contact: '(555) 555-0155' },
+  ];
+
+  function renderBusinesses(filter) {
+    const grid = document.getElementById('biz-grid');
+    if (!grid) return;
+    grid.innerHTML = BUSINESSES.map(b => `
+      <div class="biz-card" data-cat="${b.cat}">
+        <div class="biz-cat">${b.catLabel}</div>
+        <h4>${b.name}</h4>
+        <p>${b.desc}</p>
+        <div class="biz-contact">${b.contact}</div>
+      </div>
+    `).join('');
+    filterBusinesses(filter || 'all');
+  }
+
+  function filterBusinesses(cat) {
+    document.querySelectorAll('.pill').forEach(p => p.classList.toggle('active', p.dataset.cat === cat));
+    document.querySelectorAll('.biz-card').forEach(c => {
+      c.classList.toggle('hidden', cat !== 'all' && c.dataset.cat !== cat);
+    });
+  }
+
+  function submitForm(e) {
+    e.preventDefault();
+    document.getElementById('form-success').style.display = 'block';
+    return false;
+  }
+
+  // Attempt a live METAR pull for KXRG; fall back to demo data silently if blocked/unavailable.
+  async function tryLiveWeather() {
+    try {
+      const res = await fetch('https://aviationweather.gov/api/data/metar?ids=KXRG&format=json', { mode: 'cors' });
+      if (!res.ok) throw new Error('bad response');
+      const data = await res.json();
+      if (!data || !data.length) throw new Error('no data');
+      const m = data[0];
+      document.getElementById('weather-status').textContent = 'LIVE — aviationweather.gov';
+      document.getElementById('weather-status').classList.remove('demo');
+      document.getElementById('weather-status').classList.add('live');
+      const grid = document.getElementById('weather-grid');
+      grid.innerHTML = `
+        <div class="weather-item"><div class="val">${m.wdir ?? '—'}° ${m.wspd ?? '—'}kt</div><div class="lab">Wind</div></div>
+        <div class="weather-item"><div class="val">${m.visib ?? '—'} SM</div><div class="lab">Visibility</div></div>
+        <div class="weather-item"><div class="val">${(m.clouds && m.clouds[0] && m.clouds[0].cover) || 'CLR'}</div><div class="lab">Ceiling</div></div>
+        <div class="weather-item"><div class="val">${m.temp ?? '—'}°C</div><div class="lab">Temp</div></div>
+        <div class="weather-item"><div class="val">${m.altim ?? '—'}"</div><div class="lab">Altimeter</div></div>
+        <div class="weather-item"><div class="val">6,204'</div><div class="lab">Elevation</div></div>
+      `;
+    } catch (err) {
+      // Stays on the demo data already in the page — expected in a lot of demo environments (CORS/sandboxing).
+      console.log('Live weather fetch unavailable in this environment, showing demo data:', err.message);
+    }
+  }
+  tryLiveWeather();
+  drawFuelChart();
+  renderBusinesses('all');
+  renderHQLog();
+</script>
+
+</body>
+</html>

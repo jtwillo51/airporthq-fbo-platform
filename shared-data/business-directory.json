@@ -1,0 +1,34 @@
+{
+  "isMockData": true,
+  "_note": "Entirely fictional sample listings. Real listings need to come from the client. Managed from AirportHQ > Content > Local Businesses.",
+  "listings": [
+    {
+      "name": "Ridgeline Flight School",
+      "category": "Flight Training",
+      "description": "Sample listing - primary flight instruction and rentals.",
+      "contact": "555-0100",
+      "active": true
+    },
+    {
+      "name": "Salt River Aircraft Detailing",
+      "category": "Detailing",
+      "description": "Sample listing - hand wash and interior detailing for GA aircraft.",
+      "contact": "555-0101",
+      "active": true
+    },
+    {
+      "name": "High Country Avionics",
+      "category": "Avionics",
+      "description": "Sample listing - avionics install and repair.",
+      "contact": "555-0102",
+      "active": true
+    },
+    {
+      "name": "Granite Aero Mechanics",
+      "category": "Mechanic",
+      "description": "Sample listing - airframe and powerplant maintenance, annual inspections.",
+      "contact": "555-0199",
+      "active": true
+    }
+  ]
+}

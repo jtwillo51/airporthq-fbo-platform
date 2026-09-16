@@ -1,0 +1,259 @@
+@import "tailwindcss";
+@import "./tokens.css";
+
+@theme inline {
+  --color-primary: var(--color-primary);
+  --color-primary-dark: var(--color-primary-dark);
+  --color-accent: var(--color-accent);
+  --color-success: var(--color-success);
+  --color-danger: var(--color-danger);
+  --color-bg: var(--color-bg);
+  --color-bg-panel: var(--color-bg-panel);
+  --color-text: var(--color-text);
+  --color-text-muted: var(--color-text-muted);
+  --color-border: var(--color-border);
+  --font-ui: var(--font-ui);
+  --font-mono: var(--font-mono);
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-ui);
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* ---------------------------------------------------------------------
+   Numeric readouts — every figure that represents a real measurement
+   (gallons, dollars, dates) reads in mono with tabular numerals, so
+   columns of numbers line up like a panel readout, not prose.
+--------------------------------------------------------------------- */
+.hq-num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+/* ---------------------------------------------------------------------
+   Panel chrome
+--------------------------------------------------------------------- */
+.hq-eyebrow {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+.hq-card {
+  background: var(--color-bg-panel);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+/* Annunciator tile: the dashboard's stat readouts. Dark ground so the
+   amber/mono figures read like an instrument, not a SaaS metric card. */
+.hq-tile {
+  position: relative;
+  background: var(--color-primary);
+  border-radius: var(--radius-md);
+  padding: 1.1rem 1.25rem;
+  color: white;
+  overflow: hidden;
+}
+.hq-tile::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(155deg, rgba(255, 255, 255, 0.06), transparent 55%);
+  pointer-events: none;
+}
+.hq-tile-label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.65);
+}
+.hq-tile-value {
+  margin-top: 0.4rem;
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 1.6rem;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+.hq-tile-sub {
+  margin-top: 0.3rem;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.55);
+}
+.hq-tile--accent .hq-tile-value {
+  color: var(--color-accent);
+}
+
+/* ---------------------------------------------------------------------
+   Sidebar "panel rail" — dark ground, amber active indicator, small
+   live-status dots. The one place the UI departs from the light
+   dashboard surface, on purpose: this is the instrument bezel.
+--------------------------------------------------------------------- */
+.hq-rail {
+  background: var(--color-primary-dark);
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+}
+.hq-rail-heading {
+  padding: 0 0.6rem 0.3rem;
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.35);
+}
+.hq-rail-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  border-radius: var(--radius-sm);
+  padding: 0.4rem 0.6rem;
+  font-size: 0.8125rem;
+  color: rgba(255, 255, 255, 0.75);
+  border-left: 2px solid transparent;
+}
+.hq-rail-link:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+}
+.hq-rail-link--active {
+  background: rgba(255, 255, 255, 0.08);
+  border-left: 2px solid var(--color-accent);
+  color: white;
+  font-weight: 500;
+}
+
+.hq-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--color-success);
+  box-shadow: 0 0 0 3px rgba(46, 139, 87, 0.18);
+}
+.hq-dot--amber {
+  background: var(--color-accent);
+  box-shadow: 0 0 0 3px rgba(224, 165, 38, 0.2);
+}
+.hq-dot--danger {
+  background: var(--color-danger);
+  box-shadow: 0 0 0 3px rgba(179, 57, 44, 0.18);
+}
+
+/* ---------------------------------------------------------------------
+   Tables — hairlines, not cards. Dense, tabular, sortable.
+--------------------------------------------------------------------- */
+.hq-table {
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+.hq-table th {
+  padding: 0 0.9rem 0.55rem 0;
+  border-bottom: 1px solid var(--color-text);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+.hq-table td {
+  padding: 0.5rem 0.9rem 0.5rem 0;
+  border-bottom: 1px solid var(--color-border);
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  white-space: nowrap;
+}
+.hq-table td.font-sans {
+  font-family: var(--font-ui);
+}
+.hq-table tbody tr:hover td {
+  background: color-mix(in srgb, var(--color-accent) 6%, transparent);
+}
+
+.hq-sort-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  border: 0;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+.hq-sort-btn--static {
+  cursor: default;
+}
+.hq-sort-btn--active {
+  color: var(--color-text);
+}
+.hq-sort-caret {
+  color: var(--color-accent);
+  flex-shrink: 0;
+}
+
+/* ---------------------------------------------------------------------
+   Form controls
+--------------------------------------------------------------------- */
+.input {
+  width: 100%;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 0.45rem 0.6rem;
+  font-size: 0.875rem;
+  background: var(--color-bg-panel);
+  color: var(--color-text);
+}
+.input:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 1px;
+}
+
+.hq-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border-radius: var(--radius-sm);
+  padding: 0.5rem 1.1rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  background: var(--color-primary);
+  color: white;
+  transition: background-color 120ms ease;
+}
+.hq-btn:hover {
+  background: var(--color-primary-dark);
+}
+.hq-btn:disabled {
+  opacity: 0.5;
+}
+.hq-btn--ghost {
+  background: transparent;
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+.hq-btn--ghost:hover {
+  background: var(--color-bg);
+}

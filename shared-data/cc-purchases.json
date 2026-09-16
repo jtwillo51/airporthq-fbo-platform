@@ -1,0 +1,5142 @@
+{
+  "_note": "Generated demo data - every record is fabricated. No real customer, aircraft, or financial record appears here.",
+  "fboCardTransactions": [
+    {
+      "date": "2025-08-03",
+      "business": "Sinclair",
+      "amount": 90.05,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-11",
+      "business": "Sinclair",
+      "amount": 113.37,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-18",
+      "business": "Sinclair",
+      "amount": 181.91,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-27",
+      "business": "Sinclair",
+      "amount": 90.83,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-31",
+      "business": "Sinclair",
+      "amount": 89.06,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-02",
+      "business": "Sinclair",
+      "amount": 177.62,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-08",
+      "business": "Sinclair",
+      "amount": 109.29,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-26",
+      "business": "Sinclair",
+      "amount": 87.4,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-10",
+      "business": "Sinclair",
+      "amount": 83.26,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-14",
+      "business": "Sinclair",
+      "amount": 145.45,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-19",
+      "business": "Sinclair",
+      "amount": 163.67,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-20",
+      "business": "Sinclair",
+      "amount": 91.68,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-22",
+      "business": "Sinclair",
+      "amount": 162.74,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-23",
+      "business": "Sinclair",
+      "amount": 181.51,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-26",
+      "business": "Sinclair",
+      "amount": 163.95,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-02",
+      "business": "Sinclair",
+      "amount": 186.5,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-15",
+      "business": "Sinclair",
+      "amount": 93.68,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-16",
+      "business": "Sinclair",
+      "amount": 184.27,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-19",
+      "business": "Sinclair",
+      "amount": 180.48,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-20",
+      "business": "Sinclair",
+      "amount": 123.88,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-30",
+      "business": "Sinclair",
+      "amount": 98.21,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-14",
+      "business": "Sinclair",
+      "amount": 132.85,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-20",
+      "business": "Sinclair",
+      "amount": 144.04,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-21",
+      "business": "Sinclair",
+      "amount": 104.75,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-26",
+      "business": "Sinclair",
+      "amount": 141.2,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-31",
+      "business": "Sinclair",
+      "amount": 185.33,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-12",
+      "business": "Sinclair",
+      "amount": 135.17,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-21",
+      "business": "Sinclair",
+      "amount": 185.47,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-25",
+      "business": "Sinclair",
+      "amount": 180.99,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-26",
+      "business": "Sinclair",
+      "amount": 168.86,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-28",
+      "business": "Sinclair",
+      "amount": 177.8,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-07",
+      "business": "Sinclair",
+      "amount": 119.31,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-10",
+      "business": "Sinclair",
+      "amount": 111.03,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-23",
+      "business": "Sinclair",
+      "amount": 179.93,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-08",
+      "business": "Sinclair",
+      "amount": 94.26,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-14",
+      "business": "Sinclair",
+      "amount": 146.33,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-27",
+      "business": "Sinclair",
+      "amount": 91.0,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-03",
+      "business": "Sinclair",
+      "amount": 137.49,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-06",
+      "business": "Sinclair",
+      "amount": 144.38,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-20",
+      "business": "Sinclair",
+      "amount": 166.92,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-07",
+      "business": "Sinclair",
+      "amount": 155.45,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-23",
+      "business": "Sinclair",
+      "amount": 105.75,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-27",
+      "business": "Sinclair",
+      "amount": 163.71,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-29",
+      "business": "Sinclair",
+      "amount": 161.67,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-03",
+      "business": "Sinclair",
+      "amount": 114.01,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-21",
+      "business": "Sinclair",
+      "amount": 158.74,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-22",
+      "business": "Sinclair",
+      "amount": 91.52,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-24",
+      "business": "Sinclair",
+      "amount": 169.12,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-09",
+      "business": "Sinclair",
+      "amount": 81.71,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-27",
+      "business": "Sinclair",
+      "amount": 127.35,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-01",
+      "business": "Sinclair",
+      "amount": 120.44,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-04",
+      "business": "Sinclair",
+      "amount": 170.5,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-05",
+      "business": "Sinclair",
+      "amount": 88.35,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-19",
+      "business": "Sinclair",
+      "amount": 140.77,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-09",
+      "business": "Sinclair",
+      "amount": 83.87,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-27",
+      "business": "Sinclair",
+      "amount": 161.21,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-01",
+      "business": "Sinclair",
+      "amount": 153.16,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-04",
+      "business": "Sinclair",
+      "amount": 112.45,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-11",
+      "business": "Sinclair",
+      "amount": 188.73,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-20",
+      "business": "Sinclair",
+      "amount": 153.56,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-01",
+      "business": "Sinclair",
+      "amount": 129.41,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-10",
+      "business": "Sinclair",
+      "amount": 140.05,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-11",
+      "business": "Sinclair",
+      "amount": 120.64,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-12",
+      "business": "Sinclair",
+      "amount": 135.82,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-28",
+      "business": "Sinclair",
+      "amount": 179.37,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-12",
+      "business": "Sinclair",
+      "amount": 133.43,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-20",
+      "business": "Sinclair",
+      "amount": 123.31,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-04",
+      "business": "Sinclair",
+      "amount": 176.11,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-07",
+      "business": "Sinclair",
+      "amount": 142.91,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-11",
+      "business": "Sinclair",
+      "amount": 188.38,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-22",
+      "business": "Sinclair",
+      "amount": 108.04,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-30",
+      "business": "Sinclair",
+      "amount": 151.52,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-21",
+      "business": "Sinclair",
+      "amount": 108.21,
+      "description": "Fuel for Jet A truck",
+      "synthetic": true
+    }
+  ],
+  "shopTransactions": [
+    {
+      "date": "2025-08-02",
+      "vendor": "SINCLAIR",
+      "amount": 291.68,
+      "referenceOrStock": "26088",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-04",
+      "vendor": "SINCLAIR",
+      "amount": 274.42,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-04",
+      "vendor": "SINCLAIR",
+      "amount": 32.3,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-05",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 119.4,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-07",
+      "vendor": "AMAZON",
+      "amount": 278.64,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-07",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 503.4,
+      "referenceOrStock": "26054",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-08",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 404.35,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-09",
+      "vendor": "SINCLAIR",
+      "amount": 189.44,
+      "referenceOrStock": "26014",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-09",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 431.29,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-13",
+      "vendor": "CARQUEST",
+      "amount": 468.09,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-13",
+      "vendor": "SINCLAIR",
+      "amount": 334.55,
+      "referenceOrStock": "26055",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-14",
+      "vendor": "OUTLAW TEES",
+      "amount": 408.03,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-16",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 218.33,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-17",
+      "vendor": "AMAZON",
+      "amount": 146.14,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-17",
+      "vendor": "AMAZON",
+      "amount": 497.01,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-19",
+      "vendor": "SINCLAIR",
+      "amount": 489.4,
+      "referenceOrStock": "26023",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-24",
+      "vendor": "SINCLAIR",
+      "amount": 175.93,
+      "referenceOrStock": "26006",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-24",
+      "vendor": "OUTLAW TEES",
+      "amount": 402.93,
+      "referenceOrStock": "26008",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-25",
+      "vendor": "CARQUEST",
+      "amount": 433.62,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-25",
+      "vendor": "CARQUEST",
+      "amount": 283.1,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-26",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 412.7,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-26",
+      "vendor": "AMAZON",
+      "amount": 218.51,
+      "referenceOrStock": "26066",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-28",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 160.72,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-28",
+      "vendor": "ACE HARDWARE",
+      "amount": 456.59,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-29",
+      "vendor": "ACE HARDWARE",
+      "amount": 122.17,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-31",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 293.6,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-31",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 81.49,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-01",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 190.49,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-02",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 197.02,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-04",
+      "vendor": "SINCLAIR",
+      "amount": 218.96,
+      "referenceOrStock": "26013",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-05",
+      "vendor": "CARQUEST",
+      "amount": 74.75,
+      "referenceOrStock": "26081",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-05",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 260.6,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-07",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 475.54,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-08",
+      "vendor": "OUTLAW TEES",
+      "amount": 502.72,
+      "referenceOrStock": "26137",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-09",
+      "vendor": "SINCLAIR",
+      "amount": 58.64,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-09",
+      "vendor": "AMAZON",
+      "amount": 329.84,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-10",
+      "vendor": "CARQUEST",
+      "amount": 391.02,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-12",
+      "vendor": "ACE HARDWARE",
+      "amount": 477.76,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-12",
+      "vendor": "CARQUEST",
+      "amount": 213.92,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-13",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 28.81,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-16",
+      "vendor": "ACE HARDWARE",
+      "amount": 163.02,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-16",
+      "vendor": "CARQUEST",
+      "amount": 94.34,
+      "referenceOrStock": "26046",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-17",
+      "vendor": "SINCLAIR",
+      "amount": 241.75,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-17",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 498.71,
+      "referenceOrStock": "26148",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-18",
+      "vendor": "CARQUEST",
+      "amount": 26.16,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-19",
+      "vendor": "AMAZON",
+      "amount": 186.6,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-19",
+      "vendor": "OUTLAW TEES",
+      "amount": 276.19,
+      "referenceOrStock": "26052",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-20",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 98.09,
+      "referenceOrStock": "26087",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-20",
+      "vendor": "OUTLAW TEES",
+      "amount": 397.7,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-21",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 413.2,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-21",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 24.91,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-25",
+      "vendor": "SINCLAIR",
+      "amount": 440.27,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-26",
+      "vendor": "AMAZON",
+      "amount": 137.73,
+      "referenceOrStock": "26149",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-26",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 392.13,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-27",
+      "vendor": "SINCLAIR",
+      "amount": 199.02,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-28",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 408.73,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-29",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 33.11,
+      "referenceOrStock": "26071",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-29",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 375.73,
+      "referenceOrStock": "26131",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-03",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 481.09,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-04",
+      "vendor": "AMAZON",
+      "amount": 149.67,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-05",
+      "vendor": "OUTLAW TEES",
+      "amount": 407.27,
+      "referenceOrStock": "26026",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-06",
+      "vendor": "ACE HARDWARE",
+      "amount": 325.58,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-06",
+      "vendor": "ACE HARDWARE",
+      "amount": 198.12,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-07",
+      "vendor": "CARQUEST",
+      "amount": 345.63,
+      "referenceOrStock": "26078",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-08",
+      "vendor": "ACE HARDWARE",
+      "amount": 250.94,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-08",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 391.83,
+      "referenceOrStock": "26117",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-10",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 518.18,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-10",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 51.49,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-12",
+      "vendor": "OUTLAW TEES",
+      "amount": 241.77,
+      "referenceOrStock": "26124",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-14",
+      "vendor": "AMAZON",
+      "amount": 257.75,
+      "referenceOrStock": "26014",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-14",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 434.9,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-16",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 73.95,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-17",
+      "vendor": "ACE HARDWARE",
+      "amount": 178.83,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-17",
+      "vendor": "AMAZON",
+      "amount": 183.74,
+      "referenceOrStock": "26009",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-18",
+      "vendor": "OUTLAW TEES",
+      "amount": 26.64,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-18",
+      "vendor": "AMAZON",
+      "amount": 476.03,
+      "referenceOrStock": "26051",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-19",
+      "vendor": "OUTLAW TEES",
+      "amount": 166.6,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-19",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 155.13,
+      "referenceOrStock": "26004",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-21",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 468.55,
+      "referenceOrStock": "26099",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-22",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 107.49,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-22",
+      "vendor": "SINCLAIR",
+      "amount": 350.18,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-23",
+      "vendor": "CARQUEST",
+      "amount": 14.79,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-25",
+      "vendor": "ACE HARDWARE",
+      "amount": 88.05,
+      "referenceOrStock": "26052",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-25",
+      "vendor": "ACE HARDWARE",
+      "amount": 492.04,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-26",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 316.77,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-26",
+      "vendor": "OUTLAW TEES",
+      "amount": 351.3,
+      "referenceOrStock": "26112",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-28",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 39.4,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-28",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 279.82,
+      "referenceOrStock": "26126",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-29",
+      "vendor": "OUTLAW TEES",
+      "amount": 55.08,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-29",
+      "vendor": "OUTLAW TEES",
+      "amount": 56.57,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-31",
+      "vendor": "CARQUEST",
+      "amount": 128.71,
+      "referenceOrStock": "26063",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-02",
+      "vendor": "ACE HARDWARE",
+      "amount": 327.04,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-02",
+      "vendor": "AMAZON",
+      "amount": 44.86,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-04",
+      "vendor": "SINCLAIR",
+      "amount": 274.21,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-05",
+      "vendor": "OUTLAW TEES",
+      "amount": 509.2,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-06",
+      "vendor": "CARQUEST",
+      "amount": 77.31,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-06",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 269.27,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-07",
+      "vendor": "SINCLAIR",
+      "amount": 205.63,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-07",
+      "vendor": "ACE HARDWARE",
+      "amount": 200.15,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-08",
+      "vendor": "SINCLAIR",
+      "amount": 108.87,
+      "referenceOrStock": "26061",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-08",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 4173.83,
+      "referenceOrStock": "OVERHAUL",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-09",
+      "vendor": "CARQUEST",
+      "amount": 415.63,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-09",
+      "vendor": "OUTLAW TEES",
+      "amount": 326.2,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-09",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 3513.64,
+      "referenceOrStock": "OVERHAUL",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-10",
+      "vendor": "CARQUEST",
+      "amount": 156.99,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-10",
+      "vendor": "ACE HARDWARE",
+      "amount": 510.27,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-12",
+      "vendor": "SINCLAIR",
+      "amount": 136.09,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-13",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 215.5,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-14",
+      "vendor": "CARQUEST",
+      "amount": 203.4,
+      "referenceOrStock": "26138",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-14",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 101.36,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-15",
+      "vendor": "OUTLAW TEES",
+      "amount": 466.14,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-15",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 3212.51,
+      "referenceOrStock": "OVERHAUL",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-16",
+      "vendor": "CARQUEST",
+      "amount": 274.6,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-18",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 160.95,
+      "referenceOrStock": "26089",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-18",
+      "vendor": "OUTLAW TEES",
+      "amount": 210.15,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-20",
+      "vendor": "SINCLAIR",
+      "amount": 518.82,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-20",
+      "vendor": "SINCLAIR",
+      "amount": 377.32,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-21",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 63.93,
+      "referenceOrStock": "26002",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-21",
+      "vendor": "OUTLAW TEES",
+      "amount": 509.39,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-23",
+      "vendor": "ACE HARDWARE",
+      "amount": 116.75,
+      "referenceOrStock": "26009",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-24",
+      "vendor": "OUTLAW TEES",
+      "amount": 444.13,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-24",
+      "vendor": "SINCLAIR",
+      "amount": 166.18,
+      "referenceOrStock": "26008",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-26",
+      "vendor": "ACE HARDWARE",
+      "amount": 57.3,
+      "referenceOrStock": "26005",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-26",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 502.32,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-27",
+      "vendor": "SINCLAIR",
+      "amount": 482.19,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-28",
+      "vendor": "CARQUEST",
+      "amount": 103.44,
+      "referenceOrStock": "26094",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-28",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 325.54,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-29",
+      "vendor": "AMAZON",
+      "amount": 136.54,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-30",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 161.3,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-30",
+      "vendor": "ACE HARDWARE",
+      "amount": 295.61,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-01",
+      "vendor": "CARQUEST",
+      "amount": 271.87,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-03",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 360.76,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-05",
+      "vendor": "ACE HARDWARE",
+      "amount": 179.33,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-05",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 31.32,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-07",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 480.48,
+      "referenceOrStock": "26136",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-07",
+      "vendor": "ACE HARDWARE",
+      "amount": 229.99,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-09",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 457.55,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-11",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 59.22,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-13",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 175.47,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-14",
+      "vendor": "SINCLAIR",
+      "amount": 478.18,
+      "referenceOrStock": "26015",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-14",
+      "vendor": "CARQUEST",
+      "amount": 132.28,
+      "referenceOrStock": "26017",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-16",
+      "vendor": "AMAZON",
+      "amount": 196.59,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-17",
+      "vendor": "OUTLAW TEES",
+      "amount": 280.3,
+      "referenceOrStock": "26057",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-20",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 187.17,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-20",
+      "vendor": "OUTLAW TEES",
+      "amount": 178.72,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-21",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 423.86,
+      "referenceOrStock": "26109",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-22",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 446.12,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-23",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 317.07,
+      "referenceOrStock": "26147",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-23",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 364.41,
+      "referenceOrStock": "26099",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-24",
+      "vendor": "OUTLAW TEES",
+      "amount": 41.04,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-25",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 146.45,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-25",
+      "vendor": "CARQUEST",
+      "amount": 459.75,
+      "referenceOrStock": "26014",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-26",
+      "vendor": "ACE HARDWARE",
+      "amount": 46.73,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-26",
+      "vendor": "SINCLAIR",
+      "amount": 403.2,
+      "referenceOrStock": "26019",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-27",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 312.64,
+      "referenceOrStock": "26070",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-27",
+      "vendor": "OUTLAW TEES",
+      "amount": 234.38,
+      "referenceOrStock": "26004",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-28",
+      "vendor": "CARQUEST",
+      "amount": 433.63,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-28",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 453.03,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-31",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 217.03,
+      "referenceOrStock": "26127",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-01",
+      "vendor": "SINCLAIR",
+      "amount": 355.93,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-02",
+      "vendor": "ACE HARDWARE",
+      "amount": 313.18,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-03",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 506.74,
+      "referenceOrStock": "26115",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-05",
+      "vendor": "OUTLAW TEES",
+      "amount": 484.96,
+      "referenceOrStock": "26068",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-06",
+      "vendor": "AMAZON",
+      "amount": 515.15,
+      "referenceOrStock": "26061",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-07",
+      "vendor": "SINCLAIR",
+      "amount": 17.51,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-08",
+      "vendor": "AMAZON",
+      "amount": 139.08,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-09",
+      "vendor": "SINCLAIR",
+      "amount": 236.94,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-09",
+      "vendor": "ACE HARDWARE",
+      "amount": 466.33,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-10",
+      "vendor": "ACE HARDWARE",
+      "amount": 345.27,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-10",
+      "vendor": "ACE HARDWARE",
+      "amount": 456.11,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-13",
+      "vendor": "CARQUEST",
+      "amount": 437.65,
+      "referenceOrStock": "26143",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-14",
+      "vendor": "OUTLAW TEES",
+      "amount": 91.46,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-14",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 168.84,
+      "referenceOrStock": "26123",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-16",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 208.99,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-16",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 85.84,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-18",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 432.45,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-20",
+      "vendor": "CARQUEST",
+      "amount": 273.09,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-20",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 160.65,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-21",
+      "vendor": "AMAZON",
+      "amount": 307.17,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-23",
+      "vendor": "AMAZON",
+      "amount": 257.57,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-23",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 404.75,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-27",
+      "vendor": "ACE HARDWARE",
+      "amount": 389.36,
+      "referenceOrStock": "26106",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-27",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 66.87,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-29",
+      "vendor": "SINCLAIR",
+      "amount": 299.49,
+      "referenceOrStock": "26049",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-29",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 37.08,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-30",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 69.9,
+      "referenceOrStock": "26056",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-31",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 216.95,
+      "referenceOrStock": "26111",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-31",
+      "vendor": "CARQUEST",
+      "amount": 190.1,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-02",
+      "vendor": "AMAZON",
+      "amount": 439.05,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-03",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 270.99,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-04",
+      "vendor": "SINCLAIR",
+      "amount": 180.95,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-06",
+      "vendor": "CARQUEST",
+      "amount": 221.19,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-06",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 423.89,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-07",
+      "vendor": "CARQUEST",
+      "amount": 412.76,
+      "referenceOrStock": "26020",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-08",
+      "vendor": "OUTLAW TEES",
+      "amount": 361.12,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-08",
+      "vendor": "SINCLAIR",
+      "amount": 71.38,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-09",
+      "vendor": "ACE HARDWARE",
+      "amount": 170.87,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-11",
+      "vendor": "CARQUEST",
+      "amount": 241.22,
+      "referenceOrStock": "26052",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-11",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 15.79,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-13",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 221.21,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-13",
+      "vendor": "SINCLAIR",
+      "amount": 433.94,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-14",
+      "vendor": "SINCLAIR",
+      "amount": 402.64,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-14",
+      "vendor": "CARQUEST",
+      "amount": 165.1,
+      "referenceOrStock": "26083",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-15",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 401.86,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-16",
+      "vendor": "OUTLAW TEES",
+      "amount": 85.89,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-17",
+      "vendor": "SINCLAIR",
+      "amount": 247.72,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-18",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 284.1,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-18",
+      "vendor": "AMAZON",
+      "amount": 170.85,
+      "referenceOrStock": "26140",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-19",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 146.64,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-20",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 186.69,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-21",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 412.68,
+      "referenceOrStock": "26133",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-23",
+      "vendor": "OUTLAW TEES",
+      "amount": 215.13,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-24",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 277.5,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-25",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 470.02,
+      "referenceOrStock": "26089",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-26",
+      "vendor": "ACE HARDWARE",
+      "amount": 339.65,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-27",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 492.05,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-27",
+      "vendor": "ACE HARDWARE",
+      "amount": 31.49,
+      "referenceOrStock": "26146",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-01",
+      "vendor": "ACE HARDWARE",
+      "amount": 110.85,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-01",
+      "vendor": "OUTLAW TEES",
+      "amount": 411.55,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-02",
+      "vendor": "ACE HARDWARE",
+      "amount": 213.65,
+      "referenceOrStock": "26130",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-02",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 506.14,
+      "referenceOrStock": "26098",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-03",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 508.93,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-03",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 16.22,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-04",
+      "vendor": "SINCLAIR",
+      "amount": 168.06,
+      "referenceOrStock": "26117",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-09",
+      "vendor": "SINCLAIR",
+      "amount": 421.0,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-10",
+      "vendor": "CARQUEST",
+      "amount": 305.88,
+      "referenceOrStock": "26015",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-10",
+      "vendor": "ACE HARDWARE",
+      "amount": 206.71,
+      "referenceOrStock": "26063",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-11",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 222.86,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-11",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 80.49,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-12",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 152.44,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-13",
+      "vendor": "ACE HARDWARE",
+      "amount": 170.8,
+      "referenceOrStock": "26115",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-13",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 504.92,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-14",
+      "vendor": "CARQUEST",
+      "amount": 225.67,
+      "referenceOrStock": "26014",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-14",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 438.76,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-15",
+      "vendor": "SINCLAIR",
+      "amount": 74.56,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-16",
+      "vendor": "OUTLAW TEES",
+      "amount": 125.95,
+      "referenceOrStock": "26126",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-16",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 88.62,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-17",
+      "vendor": "AMAZON",
+      "amount": 421.95,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-19",
+      "vendor": "OUTLAW TEES",
+      "amount": 341.31,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-19",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 488.05,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-25",
+      "vendor": "ACE HARDWARE",
+      "amount": 430.72,
+      "referenceOrStock": "26121",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-25",
+      "vendor": "AMAZON",
+      "amount": 131.71,
+      "referenceOrStock": "26103",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-26",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 250.04,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-26",
+      "vendor": "CARQUEST",
+      "amount": 494.32,
+      "referenceOrStock": "26141",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-27",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 191.86,
+      "referenceOrStock": "26060",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-27",
+      "vendor": "ACE HARDWARE",
+      "amount": 463.02,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-29",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 124.08,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-29",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 170.88,
+      "referenceOrStock": "26057",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-02",
+      "vendor": "SINCLAIR",
+      "amount": 34.5,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-03",
+      "vendor": "SINCLAIR",
+      "amount": 373.4,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-05",
+      "vendor": "ACE HARDWARE",
+      "amount": 226.56,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-05",
+      "vendor": "SINCLAIR",
+      "amount": 105.37,
+      "referenceOrStock": "26049",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-08",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 513.66,
+      "referenceOrStock": "26030",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-11",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 196.31,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-12",
+      "vendor": "SINCLAIR",
+      "amount": 59.56,
+      "referenceOrStock": "26126",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-12",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 101.52,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-13",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 230.84,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-13",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 474.52,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-14",
+      "vendor": "CARQUEST",
+      "amount": 430.68,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-14",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 395.58,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-15",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 237.65,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-17",
+      "vendor": "AMAZON",
+      "amount": 448.34,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-17",
+      "vendor": "OUTLAW TEES",
+      "amount": 190.83,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-18",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 225.45,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-18",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 32.73,
+      "referenceOrStock": "26005",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-19",
+      "vendor": "SINCLAIR",
+      "amount": 351.31,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-20",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 151.7,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-21",
+      "vendor": "OUTLAW TEES",
+      "amount": 12.57,
+      "referenceOrStock": "26034",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-22",
+      "vendor": "AMAZON",
+      "amount": 102.94,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-24",
+      "vendor": "OUTLAW TEES",
+      "amount": 452.39,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-27",
+      "vendor": "ACE HARDWARE",
+      "amount": 44.49,
+      "referenceOrStock": "26027",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-28",
+      "vendor": "CARQUEST",
+      "amount": 187.16,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-28",
+      "vendor": "OUTLAW TEES",
+      "amount": 519.25,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-29",
+      "vendor": "SINCLAIR",
+      "amount": 239.16,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-30",
+      "vendor": "AMAZON",
+      "amount": 352.03,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-03",
+      "vendor": "CARQUEST",
+      "amount": 26.42,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-03",
+      "vendor": "ACE HARDWARE",
+      "amount": 43.51,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-04",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 378.6,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-04",
+      "vendor": "CARQUEST",
+      "amount": 149.19,
+      "referenceOrStock": "26140",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-05",
+      "vendor": "AMAZON",
+      "amount": 461.85,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-05",
+      "vendor": "AMAZON",
+      "amount": 352.89,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-06",
+      "vendor": "ACE HARDWARE",
+      "amount": 61.48,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-06",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 296.57,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-08",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 427.5,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-08",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 78.5,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-09",
+      "vendor": "AMAZON",
+      "amount": 414.52,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-09",
+      "vendor": "CARQUEST",
+      "amount": 454.91,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-12",
+      "vendor": "ACE HARDWARE",
+      "amount": 74.8,
+      "referenceOrStock": "26013",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-13",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 56.76,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-14",
+      "vendor": "CARQUEST",
+      "amount": 376.7,
+      "referenceOrStock": "26048",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-15",
+      "vendor": "OUTLAW TEES",
+      "amount": 272.08,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-15",
+      "vendor": "SINCLAIR",
+      "amount": 493.3,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-16",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 106.33,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-16",
+      "vendor": "SINCLAIR",
+      "amount": 64.44,
+      "referenceOrStock": "26143",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-17",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 23.39,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-19",
+      "vendor": "AMAZON",
+      "amount": 13.24,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-19",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 215.97,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-21",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 234.98,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-24",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 465.59,
+      "referenceOrStock": "26147",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-26",
+      "vendor": "OUTLAW TEES",
+      "amount": 280.95,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-26",
+      "vendor": "CARQUEST",
+      "amount": 297.32,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-27",
+      "vendor": "AMAZON",
+      "amount": 270.35,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-27",
+      "vendor": "AMAZON",
+      "amount": 20.18,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-28",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 63.02,
+      "referenceOrStock": "26046",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-28",
+      "vendor": "CARQUEST",
+      "amount": 155.2,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-30",
+      "vendor": "SINCLAIR",
+      "amount": 370.76,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-31",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 516.3,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-31",
+      "vendor": "OUTLAW TEES",
+      "amount": 79.82,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-02",
+      "vendor": "OUTLAW TEES",
+      "amount": 269.08,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-03",
+      "vendor": "AMAZON",
+      "amount": 222.4,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-05",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 480.46,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-07",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 267.46,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-07",
+      "vendor": "OUTLAW TEES",
+      "amount": 403.95,
+      "referenceOrStock": "26135",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-08",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 478.49,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-08",
+      "vendor": "CARQUEST",
+      "amount": 167.06,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-09",
+      "vendor": "SINCLAIR",
+      "amount": 189.77,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-09",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 429.32,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-10",
+      "vendor": "ACE HARDWARE",
+      "amount": 227.62,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-12",
+      "vendor": "ACE HARDWARE",
+      "amount": 337.72,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-13",
+      "vendor": "CARQUEST",
+      "amount": 155.23,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-14",
+      "vendor": "CARQUEST",
+      "amount": 421.31,
+      "referenceOrStock": "26128",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-14",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 58.23,
+      "referenceOrStock": "26091",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-15",
+      "vendor": "SINCLAIR",
+      "amount": 134.3,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-17",
+      "vendor": "CARQUEST",
+      "amount": 104.57,
+      "referenceOrStock": "26026",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-18",
+      "vendor": "CARQUEST",
+      "amount": 207.54,
+      "referenceOrStock": "26107",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-19",
+      "vendor": "ACE HARDWARE",
+      "amount": 42.52,
+      "referenceOrStock": "26090",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-19",
+      "vendor": "CARQUEST",
+      "amount": 410.19,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-20",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 72.07,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-20",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 476.93,
+      "referenceOrStock": "26145",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-24",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 246.5,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-28",
+      "vendor": "CARQUEST",
+      "amount": 401.34,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-01",
+      "vendor": "ACE HARDWARE",
+      "amount": 357.78,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-02",
+      "vendor": "SINCLAIR",
+      "amount": 320.3,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-02",
+      "vendor": "AMAZON",
+      "amount": 132.75,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-03",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 402.53,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-04",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 345.93,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-05",
+      "vendor": "CARQUEST",
+      "amount": 186.56,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-05",
+      "vendor": "CARQUEST",
+      "amount": 306.63,
+      "referenceOrStock": "26127",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-06",
+      "vendor": "OUTLAW TEES",
+      "amount": 200.88,
+      "referenceOrStock": "26048",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-06",
+      "vendor": "ACE HARDWARE",
+      "amount": 59.44,
+      "referenceOrStock": "26095",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-07",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 226.79,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-07",
+      "vendor": "ACE HARDWARE",
+      "amount": 287.97,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-08",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 268.28,
+      "referenceOrStock": "26051",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-13",
+      "vendor": "SINCLAIR",
+      "amount": 281.85,
+      "referenceOrStock": "26107",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-14",
+      "vendor": "OUTLAW TEES",
+      "amount": 204.04,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-14",
+      "vendor": "AMAZON",
+      "amount": 161.64,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-15",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 154.75,
+      "referenceOrStock": "26101",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-16",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 170.92,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-17",
+      "vendor": "AMAZON",
+      "amount": 251.99,
+      "referenceOrStock": "26063",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-17",
+      "vendor": "CARQUEST",
+      "amount": 247.64,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-18",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 73.28,
+      "referenceOrStock": "26125",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-18",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 113.17,
+      "referenceOrStock": "26083",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-19",
+      "vendor": "ACE HARDWARE",
+      "amount": 400.25,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-19",
+      "vendor": "SINCLAIR",
+      "amount": 226.14,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-22",
+      "vendor": "SINCLAIR",
+      "amount": 457.47,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-22",
+      "vendor": "ACE HARDWARE",
+      "amount": 366.38,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-23",
+      "vendor": "OUTLAW TEES",
+      "amount": 241.67,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-23",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 200.15,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-24",
+      "vendor": "OUTLAW TEES",
+      "amount": 62.25,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-24",
+      "vendor": "AMAZON",
+      "amount": 474.05,
+      "referenceOrStock": "26136",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-25",
+      "vendor": "ACE HARDWARE",
+      "amount": 242.36,
+      "referenceOrStock": "26009",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-25",
+      "vendor": "SINCLAIR",
+      "amount": 201.87,
+      "referenceOrStock": "26087",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-26",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 396.95,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-26",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 462.45,
+      "referenceOrStock": "26134",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-27",
+      "vendor": "CARQUEST",
+      "amount": 262.36,
+      "referenceOrStock": "26058",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-28",
+      "vendor": "OUTLAW TEES",
+      "amount": 91.31,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-01",
+      "vendor": "ACE HARDWARE",
+      "amount": 152.7,
+      "referenceOrStock": "26081",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-01",
+      "vendor": "ACE HARDWARE",
+      "amount": 179.73,
+      "referenceOrStock": "26114",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-02",
+      "vendor": "CARQUEST",
+      "amount": 254.83,
+      "referenceOrStock": "26119",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-03",
+      "vendor": "OUTLAW TEES",
+      "amount": 516.56,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-04",
+      "vendor": "SINCLAIR",
+      "amount": 426.87,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-05",
+      "vendor": "SINCLAIR",
+      "amount": 123.48,
+      "referenceOrStock": "26125",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-05",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 409.56,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-06",
+      "vendor": "SINCLAIR",
+      "amount": 268.15,
+      "referenceOrStock": "26004",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-06",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 35.3,
+      "referenceOrStock": "26034",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-08",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 128.29,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-10",
+      "vendor": "CARQUEST",
+      "amount": 305.5,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-10",
+      "vendor": "SINCLAIR",
+      "amount": 506.5,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-11",
+      "vendor": "CARQUEST",
+      "amount": 247.86,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-11",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 433.48,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-12",
+      "vendor": "SINCLAIR",
+      "amount": 18.54,
+      "referenceOrStock": "26136",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-13",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 470.22,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-13",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 230.22,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-14",
+      "vendor": "AMAZON",
+      "amount": 362.44,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-14",
+      "vendor": "CARQUEST",
+      "amount": 16.62,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-15",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 169.12,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-15",
+      "vendor": "ACE HARDWARE",
+      "amount": 166.57,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-16",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 21.96,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-16",
+      "vendor": "AMAZON",
+      "amount": 117.4,
+      "referenceOrStock": "26089",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-19",
+      "vendor": "CARQUEST",
+      "amount": 119.14,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-19",
+      "vendor": "ACE HARDWARE",
+      "amount": 292.62,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-21",
+      "vendor": "AMAZON",
+      "amount": 386.74,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-21",
+      "vendor": "SINCLAIR",
+      "amount": 463.44,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-22",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 432.61,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-22",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 78.66,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-23",
+      "vendor": "OUTLAW TEES",
+      "amount": 320.45,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-23",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 161.14,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-27",
+      "vendor": "OUTLAW TEES",
+      "amount": 35.7,
+      "referenceOrStock": "26089",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-28",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 410.32,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-30",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 373.37,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-30",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 208.89,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-04",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 154.37,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-04",
+      "vendor": "CARQUEST",
+      "amount": 485.5,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-05",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 363.53,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-07",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 376.08,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-08",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 69.2,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-08",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 456.26,
+      "referenceOrStock": "26126",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-09",
+      "vendor": "SINCLAIR",
+      "amount": 334.28,
+      "referenceOrStock": "26068",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-11",
+      "vendor": "CARQUEST",
+      "amount": 323.23,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-14",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 510.23,
+      "referenceOrStock": "26129",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-14",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 138.42,
+      "referenceOrStock": "26019",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-16",
+      "vendor": "AMAZON",
+      "amount": 448.3,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-17",
+      "vendor": "ACE HARDWARE",
+      "amount": 81.1,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-17",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 51.3,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-18",
+      "vendor": "AMAZON",
+      "amount": 78.18,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-18",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 406.97,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-19",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 328.47,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-20",
+      "vendor": "SINCLAIR",
+      "amount": 360.84,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-20",
+      "vendor": "CARQUEST",
+      "amount": 439.53,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-21",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 361.51,
+      "referenceOrStock": "26006",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-22",
+      "vendor": "ACE HARDWARE",
+      "amount": 205.91,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-23",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 360.56,
+      "referenceOrStock": "26121",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-24",
+      "vendor": "AMAZON",
+      "amount": 448.57,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-25",
+      "vendor": "ACE HARDWARE",
+      "amount": 164.31,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-27",
+      "vendor": "ACE HARDWARE",
+      "amount": 308.41,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-29",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 279.56,
+      "referenceOrStock": "26130",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-30",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 350.08,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-30",
+      "vendor": "SINCLAIR",
+      "amount": 256.16,
+      "referenceOrStock": "26035",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-01",
+      "vendor": "CARQUEST",
+      "amount": 385.45,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-02",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 55.43,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-02",
+      "vendor": "OUTLAW TEES",
+      "amount": 470.14,
+      "referenceOrStock": "26150",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-03",
+      "vendor": "SINCLAIR",
+      "amount": 395.91,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-03",
+      "vendor": "SINCLAIR",
+      "amount": 355.42,
+      "referenceOrStock": "26031",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-07",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 254.24,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-08",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 36.92,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-08",
+      "vendor": "AMAZON",
+      "amount": 259.74,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-11",
+      "vendor": "AMAZON",
+      "amount": 128.05,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-11",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 87.08,
+      "referenceOrStock": "26049",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-12",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 169.62,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-13",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 53.92,
+      "referenceOrStock": "26061",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-14",
+      "vendor": "SINCLAIR",
+      "amount": 74.92,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-14",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 152.08,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-16",
+      "vendor": "AMAZON",
+      "amount": 326.82,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-17",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 380.2,
+      "referenceOrStock": "26033",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-17",
+      "vendor": "CARQUEST",
+      "amount": 420.77,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-18",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 134.49,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-19",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 339.49,
+      "referenceOrStock": "26046",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-21",
+      "vendor": "SINCLAIR",
+      "amount": 452.29,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-22",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 74.47,
+      "referenceOrStock": "26080",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-22",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 131.43,
+      "referenceOrStock": "26064",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-23",
+      "vendor": "AMAZON",
+      "amount": 217.96,
+      "referenceOrStock": "26129",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-23",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 194.55,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-24",
+      "vendor": "SINCLAIR",
+      "amount": 418.36,
+      "referenceOrStock": "26124",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-24",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 318.89,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-25",
+      "vendor": "SINCLAIR",
+      "amount": 108.74,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-25",
+      "vendor": "OUTLAW TEES",
+      "amount": 359.09,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-26",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 67.85,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-27",
+      "vendor": "AMAZON",
+      "amount": 248.25,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-27",
+      "vendor": "CARQUEST",
+      "amount": 325.51,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-29",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 383.31,
+      "referenceOrStock": "26116",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-29",
+      "vendor": "SINCLAIR",
+      "amount": 278.04,
+      "referenceOrStock": "26108",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-30",
+      "vendor": "ACE HARDWARE",
+      "amount": 490.24,
+      "referenceOrStock": "26003",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-30",
+      "vendor": "SINCLAIR",
+      "amount": 82.14,
+      "referenceOrStock": "26141",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-01",
+      "vendor": "CARQUEST",
+      "amount": 460.38,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-02",
+      "vendor": "OUTLAW TEES",
+      "amount": 422.16,
+      "referenceOrStock": "26012",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-02",
+      "vendor": "CARQUEST",
+      "amount": 180.35,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-04",
+      "vendor": "OUTLAW TEES",
+      "amount": 245.29,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-07",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 109.21,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-08",
+      "vendor": "SINCLAIR",
+      "amount": 244.26,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-08",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 401.99,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-11",
+      "vendor": "SINCLAIR",
+      "amount": 269.51,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-11",
+      "vendor": "CARQUEST",
+      "amount": 26.69,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-12",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 340.01,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-13",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 132.28,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-13",
+      "vendor": "SINCLAIR",
+      "amount": 324.7,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-17",
+      "vendor": "CARQUEST",
+      "amount": 132.94,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-17",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 260.16,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-18",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 371.38,
+      "referenceOrStock": "26074",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-18",
+      "vendor": "AMAZON",
+      "amount": 365.6,
+      "referenceOrStock": "26110",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-19",
+      "vendor": "ACE HARDWARE",
+      "amount": 465.11,
+      "referenceOrStock": "26044",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-20",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 158.74,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-20",
+      "vendor": "ACE HARDWARE",
+      "amount": 222.65,
+      "referenceOrStock": "26003",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-21",
+      "vendor": "SINCLAIR",
+      "amount": 270.08,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-21",
+      "vendor": "AMAZON",
+      "amount": 354.06,
+      "referenceOrStock": "26096",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-24",
+      "vendor": "CARQUEST",
+      "amount": 125.82,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-25",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 207.96,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-26",
+      "vendor": "CARQUEST",
+      "amount": 483.33,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-27",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 226.88,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-28",
+      "vendor": "OUTLAW TEES",
+      "amount": 207.57,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-28",
+      "vendor": "OUTLAW TEES",
+      "amount": 201.29,
+      "referenceOrStock": "26097",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-29",
+      "vendor": "OUTLAW TEES",
+      "amount": 312.1,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-29",
+      "vendor": "CARQUEST",
+      "amount": 432.24,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-01",
+      "vendor": "OUTLAW TEES",
+      "amount": 86.38,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-01",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 234.53,
+      "referenceOrStock": "26117",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-03",
+      "vendor": "SINCLAIR",
+      "amount": 361.26,
+      "referenceOrStock": "26090",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-04",
+      "vendor": "OUTLAW TEES",
+      "amount": 472.12,
+      "referenceOrStock": "26076",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-05",
+      "vendor": "CARQUEST",
+      "amount": 200.54,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-06",
+      "vendor": "CARQUEST",
+      "amount": 225.08,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-09",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 110.67,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-10",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 365.18,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-12",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 317.17,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-13",
+      "vendor": "CARQUEST",
+      "amount": 128.25,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-14",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 459.24,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-14",
+      "vendor": "SINCLAIR",
+      "amount": 230.25,
+      "referenceOrStock": "26107",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-15",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 499.77,
+      "referenceOrStock": "26033",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-15",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 83.44,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-16",
+      "vendor": "AMAZON",
+      "amount": 201.57,
+      "referenceOrStock": "26106",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-16",
+      "vendor": "AMAZON",
+      "amount": 141.46,
+      "referenceOrStock": "26127",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-18",
+      "vendor": "ACE HARDWARE",
+      "amount": 26.63,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-20",
+      "vendor": "SINCLAIR",
+      "amount": 327.73,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-20",
+      "vendor": "ACE HARDWARE",
+      "amount": 402.95,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-21",
+      "vendor": "OUTLAW TEES",
+      "amount": 455.25,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-22",
+      "vendor": "SINCLAIR",
+      "amount": 166.69,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-23",
+      "vendor": "ACE HARDWARE",
+      "amount": 275.67,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-24",
+      "vendor": "AMAZON",
+      "amount": 450.2,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-25",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 388.12,
+      "referenceOrStock": "26062",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-26",
+      "vendor": "CARQUEST",
+      "amount": 66.65,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-26",
+      "vendor": "AMAZON",
+      "amount": 111.18,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-27",
+      "vendor": "ACE HARDWARE",
+      "amount": 105.78,
+      "referenceOrStock": "26021",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-28",
+      "vendor": "ACE HARDWARE",
+      "amount": 432.51,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-28",
+      "vendor": "CARQUEST",
+      "amount": 362.3,
+      "referenceOrStock": "26137",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-30",
+      "vendor": "OUTLAW TEES",
+      "amount": 315.89,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-01",
+      "vendor": "AMAZON",
+      "amount": 238.35,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-01",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 237.05,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-02",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 199.93,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-02",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 94.35,
+      "referenceOrStock": "26008",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-04",
+      "vendor": "SINCLAIR",
+      "amount": 235.87,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-04",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 303.75,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-07",
+      "vendor": "OUTLAW TEES",
+      "amount": 246.58,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-07",
+      "vendor": "CARQUEST",
+      "amount": 356.94,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-10",
+      "vendor": "ACE HARDWARE",
+      "amount": 125.33,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-11",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 263.87,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-14",
+      "vendor": "OUTLAW TEES",
+      "amount": 141.22,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-15",
+      "vendor": "OUTLAW TEES",
+      "amount": 294.18,
+      "referenceOrStock": "26067",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-16",
+      "vendor": "AMAZON",
+      "amount": 356.12,
+      "referenceOrStock": "26092",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-17",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 395.44,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-17",
+      "vendor": "CARQUEST",
+      "amount": 219.09,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-21",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 294.71,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-22",
+      "vendor": "CARQUEST",
+      "amount": 79.1,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-22",
+      "vendor": "OUTLAW TEES",
+      "amount": 355.37,
+      "referenceOrStock": "26107",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-23",
+      "vendor": "ACE HARDWARE",
+      "amount": 177.09,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-25",
+      "vendor": "SINCLAIR",
+      "amount": 134.53,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-25",
+      "vendor": "AMAZON",
+      "amount": 19.3,
+      "referenceOrStock": "26043",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-26",
+      "vendor": "SINCLAIR",
+      "amount": 64.25,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-30",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 454.58,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-31",
+      "vendor": "ACE HARDWARE",
+      "amount": 287.83,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-31",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 88.68,
+      "referenceOrStock": "26036",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-03",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 175.51,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-03",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 230.98,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-04",
+      "vendor": "ACE HARDWARE",
+      "amount": 436.57,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-04",
+      "vendor": "AMAZON",
+      "amount": 384.05,
+      "referenceOrStock": "26039",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-05",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 308.98,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-05",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 152.52,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-07",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 487.24,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-07",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 223.09,
+      "referenceOrStock": "26097",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-09",
+      "vendor": "AMAZON",
+      "amount": 468.88,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-09",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 314.57,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-10",
+      "vendor": "SINCLAIR",
+      "amount": 161.6,
+      "referenceOrStock": "26038",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-11",
+      "vendor": "SINCLAIR",
+      "amount": 219.77,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-13",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 343.14,
+      "referenceOrStock": "26090",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-15",
+      "vendor": "OUTLAW TEES",
+      "amount": 159.05,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-17",
+      "vendor": "ACE HARDWARE",
+      "amount": 353.16,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-17",
+      "vendor": "AMAZON",
+      "amount": 367.64,
+      "referenceOrStock": "26060",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-18",
+      "vendor": "SINCLAIR",
+      "amount": 448.18,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-18",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 119.72,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-19",
+      "vendor": "AMAZON",
+      "amount": 444.02,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N826YK",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-20",
+      "vendor": "CARQUEST",
+      "amount": 460.18,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-20",
+      "vendor": "AMAZON",
+      "amount": 463.66,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-21",
+      "vendor": "CARQUEST",
+      "amount": 224.89,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-21",
+      "vendor": "SINCLAIR",
+      "amount": 185.98,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-23",
+      "vendor": "AIRCRAFT SPRUCE",
+      "amount": 432.32,
+      "referenceOrStock": "26130",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-23",
+      "vendor": "ACE HARDWARE",
+      "amount": 265.2,
+      "referenceOrStock": "26139",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-24",
+      "vendor": "AMAZON",
+      "amount": 125.21,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-24",
+      "vendor": "ACE HARDWARE",
+      "amount": 397.44,
+      "referenceOrStock": "26086",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-25",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 466.65,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "SHOP",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-25",
+      "vendor": "AVIAT AIRCRAFT",
+      "amount": 367.24,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N858LR",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-28",
+      "vendor": "SMOKING AIRPLANES",
+      "amount": 368.74,
+      "referenceOrStock": "SHOP",
+      "tailNumberOrShop": "N840SH",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-28",
+      "vendor": "SINCLAIR",
+      "amount": 105.5,
+      "referenceOrStock": "STOCK",
+      "tailNumberOrShop": "N830XH",
+      "synthetic": true
+    }
+  ]
+}

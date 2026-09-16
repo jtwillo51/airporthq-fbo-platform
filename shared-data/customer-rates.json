@@ -1,0 +1,2420 @@
+{
+  "_note": "Generated demo data - every record is fabricated. No real customer, aircraft, or financial record appears here.",
+  "customers": [
+    {
+      "hangarOrLocation": "E3",
+      "tailNumber": "N113VW",
+      "aircraftType": "172",
+      "owner": "Granite Air Holdings",
+      "attention": "Mara Vance",
+      "paymentMethod": "CC",
+      "currentRate": 6.66,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 6.66
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 6.6
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 6.64
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 6.61
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 6.53
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 6.59
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 6.54
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 6.55
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 6.46
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 6.45
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 6.46
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 6.41
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 6.44
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 6.38
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "Airpark",
+      "tailNumber": "N125EF",
+      "aircraftType": "C525B",
+      "owner": "Salt River Charter",
+      "attention": "Dell Krantz",
+      "paymentMethod": "Invoice",
+      "currentRate": 6.19,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 6.17
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 6.18
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 6.12
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 6.17
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 6.07
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 6.07
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 6.07
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 6.08
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 6.0
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 6.0
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 6.0
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 6.0
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 5.96
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 5.97
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "E3",
+      "tailNumber": "N155SJ",
+      "aircraftType": "180",
+      "owner": "Bridger Flight Group",
+      "attention": "Ivy Sandoval",
+      "paymentMethod": "Invoice",
+      "currentRate": 6.05,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 6.09
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 6.01
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 5.97
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 5.94
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 5.94
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 5.94
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 5.93
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 5.92
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 5.84
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 5.87
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 5.89
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 5.81
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 5.77
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 5.8
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "H35",
+      "tailNumber": "N212JP",
+      "aircraftType": "C525B",
+      "owner": "Cache Peak Aviation",
+      "attention": "Ron Whitlock",
+      "paymentMethod": "Invoice",
+      "currentRate": 6.74,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 6.78
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 6.68
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 6.74
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 6.67
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 6.67
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 6.66
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 6.6
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 6.55
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 6.54
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 6.52
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 6.54
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 6.49
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 6.54
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 6.47
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "H4",
+      "tailNumber": "N213BB",
+      "aircraftType": "King Air 200",
+      "owner": "Snake River Jet",
+      "attention": "Peter Amell",
+      "paymentMethod": "Invoice",
+      "currentRate": 6.76,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 6.8
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 6.72
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 6.74
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 6.73
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 6.73
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 6.65
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 6.66
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 6.66
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 6.6
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 6.55
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 6.55
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 6.5
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 6.54
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 6.46
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "E3",
+      "tailNumber": "N216XB",
+      "aircraftType": "172",
+      "owner": "Greys River Air",
+      "attention": "Lucy Brenner",
+      "paymentMethod": "CC",
+      "currentRate": 5.68,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 5.71
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 5.69
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 5.69
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 5.59
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 5.57
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 5.6
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 5.56
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 5.51
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 5.49
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 5.48
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 5.46
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 5.48
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 5.44
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 5.42
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "H4",
+      "tailNumber": "N219KN",
+      "aircraftType": "172",
+      "owner": "Cedar Ridge Aviation",
+      "attention": "Nina Halvorsen",
+      "paymentMethod": "Invoice",
+      "currentRate": 6.36,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 6.37
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 6.37
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 6.31
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 6.31
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 6.28
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 6.22
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 6.26
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 6.2
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 6.15
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 6.13
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 6.2
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 6.17
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 6.07
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 6.12
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "Transient",
+      "tailNumber": "N261DS",
+      "aircraftType": "HA4T",
+      "owner": "Palisades Flight Services",
+      "attention": "Owen Marsh",
+      "paymentMethod": "Invoice",
+      "currentRate": 6.71,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 6.66
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 6.7
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 6.63
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 6.63
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 6.61
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 6.62
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 6.6
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 6.54
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 6.53
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 6.49
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 6.48
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 6.51
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 6.47
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 6.46
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "H4",
+      "tailNumber": "N262RV",
+      "aircraftType": "King Air 200",
+      "owner": "Granite Air Holdings",
+      "attention": "Mara Vance",
+      "paymentMethod": "Invoice",
+      "currentRate": 5.62,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 5.57
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 5.61
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 5.53
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 5.54
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 5.54
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 5.5
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 5.52
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 5.47
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 5.48
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 5.47
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 5.45
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 5.35
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 5.4
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 5.4
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "H4",
+      "tailNumber": "N277XR",
+      "aircraftType": "172",
+      "owner": "Salt River Charter",
+      "attention": "Dell Krantz",
+      "paymentMethod": "Invoice",
+      "currentRate": 5.71,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 5.73
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 5.68
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 5.64
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 5.64
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 5.67
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 5.58
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 5.6
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 5.6
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 5.56
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 5.51
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 5.53
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 5.44
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 5.52
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 5.44
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "H35",
+      "tailNumber": "N305HS",
+      "aircraftType": "Citabria",
+      "owner": "Bridger Flight Group",
+      "attention": "Ivy Sandoval",
+      "paymentMethod": "CC",
+      "currentRate": 6.7,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 6.7
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 6.68
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 6.62
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 6.63
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 6.6
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 6.57
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 6.55
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 6.6
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 6.54
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 6.54
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 6.54
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 6.45
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 6.42
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 6.42
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "E3",
+      "tailNumber": "N306YN",
+      "aircraftType": "Citabria",
+      "owner": "Cache Peak Aviation",
+      "attention": "Ron Whitlock",
+      "paymentMethod": "Invoice",
+      "currentRate": 5.72,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 5.77
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 5.74
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 5.67
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 5.7
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 5.68
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 5.67
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 5.63
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 5.57
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 5.6
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 5.53
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 5.51
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 5.48
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 5.49
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 5.47
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "Airpark",
+      "tailNumber": "N395MR",
+      "aircraftType": "King Air 200",
+      "owner": "Snake River Jet",
+      "attention": "Peter Amell",
+      "paymentMethod": "Invoice",
+      "currentRate": 6.02,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 6.04
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 5.97
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 5.93
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 5.98
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 5.94
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 5.89
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 5.9
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 5.9
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 5.88
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 5.84
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 5.78
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 5.75
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 5.79
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 5.78
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "Transient",
+      "tailNumber": "N429JS",
+      "aircraftType": "Citabria",
+      "owner": "Greys River Air",
+      "attention": "Lucy Brenner",
+      "paymentMethod": "CC",
+      "currentRate": 6.69,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 6.73
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 6.65
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 6.62
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 6.65
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 6.65
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 6.58
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 6.59
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 6.51
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 6.54
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 6.52
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 6.48
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 6.42
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 6.41
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 6.43
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "Airpark",
+      "tailNumber": "N430HU",
+      "aircraftType": "180",
+      "owner": "Cedar Ridge Aviation",
+      "attention": "Nina Halvorsen",
+      "paymentMethod": "CC",
+      "currentRate": 6.04,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 6.01
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 5.99
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 5.99
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 6.02
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 5.98
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 5.96
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 5.96
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 5.88
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 5.91
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 5.88
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 5.83
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 5.85
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 5.84
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 5.76
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "E3",
+      "tailNumber": "N487DX",
+      "aircraftType": "King Air 200",
+      "owner": "Palisades Flight Services",
+      "attention": "Owen Marsh",
+      "paymentMethod": "Invoice",
+      "currentRate": 6.79,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 6.83
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 6.74
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 6.72
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 6.78
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 6.75
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 6.65
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 6.68
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 6.62
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 6.6
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 6.66
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 6.6
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 6.54
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 6.54
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 6.57
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "Airpark",
+      "tailNumber": "N561HM",
+      "aircraftType": "HA4T",
+      "owner": "Granite Air Holdings",
+      "attention": "Mara Vance",
+      "paymentMethod": "Invoice",
+      "currentRate": 6.52,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 6.49
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 6.51
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 6.44
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 6.41
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 6.39
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 6.43
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 6.4
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 6.39
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 6.38
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 6.3
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 6.29
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 6.34
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 6.28
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 6.25
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "H35",
+      "tailNumber": "N587HH",
+      "aircraftType": "172",
+      "owner": "Salt River Charter",
+      "attention": "Dell Krantz",
+      "paymentMethod": "CC",
+      "currentRate": 5.96,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 5.93
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 5.94
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 5.87
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 5.92
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 5.91
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 5.9
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 5.81
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 5.83
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 5.85
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 5.82
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 5.72
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 5.76
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 5.72
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 5.66
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "H4",
+      "tailNumber": "N612PK",
+      "aircraftType": "Citabria",
+      "owner": "Bridger Flight Group",
+      "attention": "Ivy Sandoval",
+      "paymentMethod": "Invoice",
+      "currentRate": 6.83,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 6.83
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 6.82
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 6.83
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 6.72
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 6.7
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 6.68
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 6.75
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 6.69
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 6.63
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 6.63
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 6.65
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 6.57
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 6.56
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 6.57
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "H35",
+      "tailNumber": "N643AS",
+      "aircraftType": "C525B",
+      "owner": "Cache Peak Aviation",
+      "attention": "Ron Whitlock",
+      "paymentMethod": "Invoice",
+      "currentRate": 6.84,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 6.79
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 6.79
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 6.78
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 6.75
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 6.73
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 6.71
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 6.74
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 6.67
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 6.69
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 6.66
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 6.62
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 6.63
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 6.63
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 6.62
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "Airpark",
+      "tailNumber": "N662RX",
+      "aircraftType": "King Air 200",
+      "owner": "Snake River Jet",
+      "attention": "Peter Amell",
+      "paymentMethod": "Invoice",
+      "currentRate": 6.36,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 6.4
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 6.39
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 6.34
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 6.35
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 6.28
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 6.25
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 6.2
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 6.27
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 6.19
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 6.19
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 6.2
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 6.12
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 6.11
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 6.06
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "Transient",
+      "tailNumber": "N694YL",
+      "aircraftType": "180",
+      "owner": "Greys River Air",
+      "attention": "Lucy Brenner",
+      "paymentMethod": "Invoice",
+      "currentRate": 6.3,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 6.25
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 6.29
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 6.3
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 6.19
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 6.26
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 6.25
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 6.15
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 6.12
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 6.17
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 6.09
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 6.13
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 6.04
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 6.07
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 6.04
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "H4",
+      "tailNumber": "N732RR",
+      "aircraftType": "C525B",
+      "owner": "Cedar Ridge Aviation",
+      "attention": "Nina Halvorsen",
+      "paymentMethod": "Invoice",
+      "currentRate": 6.67,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 6.67
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 6.68
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 6.59
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 6.61
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 6.6
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 6.53
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 6.58
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 6.56
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 6.54
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 6.53
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 6.5
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 6.48
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 6.48
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 6.38
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "Airpark",
+      "tailNumber": "N774PH",
+      "aircraftType": "C525B",
+      "owner": "Palisades Flight Services",
+      "attention": "Owen Marsh",
+      "paymentMethod": "Invoice",
+      "currentRate": 6.81,
+      "fuelType": "Jet A",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 6.83
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 6.78
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 6.8
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 6.71
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 6.73
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 6.7
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 6.65
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 6.62
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 6.65
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 6.67
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 6.57
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 6.62
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 6.56
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 6.56
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "H4",
+      "tailNumber": "N826YK",
+      "aircraftType": "180",
+      "owner": "Granite Air Holdings",
+      "attention": "Mara Vance",
+      "paymentMethod": "Invoice",
+      "currentRate": 5.81,
+      "fuelType": "100LL",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 5.78
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 5.79
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 5.82
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 5.73
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 5.77
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 5.75
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 5.65
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 5.64
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 5.69
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 5.59
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 5.61
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 5.61
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 5.55
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 5.55
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "H4",
+      "tailNumber": "N830XH",
+      "aircraftType": "HA4T",
+      "owner": "Salt River Charter",
+      "attention": "Dell Krantz",
+      "paymentMethod": "CC",
+      "currentRate": 5.67,
+      "fuelType": "100LL",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 5.71
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 5.67
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 5.67
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 5.64
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 5.63
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 5.6
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 5.57
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 5.49
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 5.53
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 5.46
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 5.44
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 5.49
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 5.47
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 5.43
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "H4",
+      "tailNumber": "N840SH",
+      "aircraftType": "172",
+      "owner": "Bridger Flight Group",
+      "attention": "Ivy Sandoval",
+      "paymentMethod": "Invoice",
+      "currentRate": 5.76,
+      "fuelType": "100LL",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 5.73
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 5.76
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 5.68
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 5.71
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 5.71
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 5.69
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 5.59
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 5.65
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 5.56
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 5.57
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 5.52
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 5.49
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 5.48
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 5.47
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "H4",
+      "tailNumber": "N858LR",
+      "aircraftType": "C525B",
+      "owner": "Cache Peak Aviation",
+      "attention": "Ron Whitlock",
+      "paymentMethod": "Invoice",
+      "currentRate": 5.54,
+      "fuelType": "100LL",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 5.52
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 5.48
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 5.53
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 5.5
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 5.41
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 5.47
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 5.4
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 5.42
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 5.39
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 5.35
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 5.34
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 5.29
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 5.34
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 5.31
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "Airpark",
+      "tailNumber": "N863KS",
+      "aircraftType": "King Air 200",
+      "owner": "Snake River Jet",
+      "attention": "Peter Amell",
+      "paymentMethod": "CC",
+      "currentRate": 6.08,
+      "fuelType": "100LL",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 6.05
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 6.08
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 6.07
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 5.97
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 5.98
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 5.99
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 5.95
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 5.94
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 5.91
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 5.95
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 5.86
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 5.86
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 5.82
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 5.87
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "Transient",
+      "tailNumber": "N882DR",
+      "aircraftType": "King Air 200",
+      "owner": "Greys River Air",
+      "attention": "Lucy Brenner",
+      "paymentMethod": "Invoice",
+      "currentRate": 5.86,
+      "fuelType": "100LL",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 5.81
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 5.81
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 5.81
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 5.77
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 5.79
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 5.79
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 5.76
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 5.74
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 5.74
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 5.72
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 5.64
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 5.64
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 5.66
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 5.59
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "Transient",
+      "tailNumber": "N882VM",
+      "aircraftType": "172",
+      "owner": "Cedar Ridge Aviation",
+      "attention": "Nina Halvorsen",
+      "paymentMethod": "Invoice",
+      "currentRate": 6.02,
+      "fuelType": "100LL",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 5.97
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 6.05
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 5.96
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 5.97
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 5.96
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 5.94
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 5.88
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 5.88
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 5.82
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 5.8
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 5.81
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 5.75
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 5.83
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 5.71
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "H4",
+      "tailNumber": "N912RP",
+      "aircraftType": "Citabria",
+      "owner": "Palisades Flight Services",
+      "attention": "Owen Marsh",
+      "paymentMethod": "CC",
+      "currentRate": 5.91,
+      "fuelType": "100LL",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 5.96
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 5.92
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 5.9
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 5.86
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 5.85
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 5.85
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 5.8
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 5.8
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 5.73
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 5.7
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 5.73
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 5.65
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 5.63
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 5.62
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "H4",
+      "tailNumber": "N963CB",
+      "aircraftType": "TBM-960",
+      "owner": "Granite Air Holdings",
+      "attention": "Mara Vance",
+      "paymentMethod": "Invoice",
+      "currentRate": 6.2,
+      "fuelType": "100LL",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 6.16
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 6.15
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 6.2
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 6.13
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 6.12
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 6.1
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 6.04
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 6.06
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 6.08
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 6.0
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 6.03
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 5.96
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 6.0
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 5.99
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "H35",
+      "tailNumber": "N966TQ",
+      "aircraftType": "King Air 200",
+      "owner": "Salt River Charter",
+      "attention": "Dell Krantz",
+      "paymentMethod": "CC",
+      "currentRate": 5.91,
+      "fuelType": "100LL",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 5.91
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 5.93
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 5.83
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 5.87
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 5.8
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 5.84
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 5.82
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 5.76
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 5.8
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 5.76
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 5.75
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 5.73
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 5.67
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 5.67
+        }
+      ],
+      "synthetic": true
+    },
+    {
+      "hangarOrLocation": "Airpark",
+      "tailNumber": "N985ZB",
+      "aircraftType": "King Air 200",
+      "owner": "Bridger Flight Group",
+      "attention": "Ivy Sandoval",
+      "paymentMethod": "Invoice",
+      "currentRate": 6.25,
+      "fuelType": "100LL",
+      "rateHistory": [
+        {
+          "deliveryDate": "2026-09-01",
+          "rate": 6.3
+        },
+        {
+          "deliveryDate": "2026-08-01",
+          "rate": 6.25
+        },
+        {
+          "deliveryDate": "2026-07-01",
+          "rate": 6.24
+        },
+        {
+          "deliveryDate": "2026-06-01",
+          "rate": 6.22
+        },
+        {
+          "deliveryDate": "2026-05-01",
+          "rate": 6.12
+        },
+        {
+          "deliveryDate": "2026-04-01",
+          "rate": 6.1
+        },
+        {
+          "deliveryDate": "2026-03-01",
+          "rate": 6.13
+        },
+        {
+          "deliveryDate": "2026-02-01",
+          "rate": 6.07
+        },
+        {
+          "deliveryDate": "2026-01-01",
+          "rate": 6.13
+        },
+        {
+          "deliveryDate": "2025-12-01",
+          "rate": 6.1
+        },
+        {
+          "deliveryDate": "2025-11-01",
+          "rate": 6.01
+        },
+        {
+          "deliveryDate": "2025-10-01",
+          "rate": 6.06
+        },
+        {
+          "deliveryDate": "2025-09-01",
+          "rate": 6.03
+        },
+        {
+          "deliveryDate": "2025-08-01",
+          "rate": 6.02
+        }
+      ],
+      "synthetic": true
+    }
+  ]
+}

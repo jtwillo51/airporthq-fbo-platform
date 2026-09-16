@@ -1,0 +1,33 @@
+{
+  "_note": "Fictional demo airport. Ridgeline Regional (KXRG) does not exist; these facts are invented to resemble a small non-towered mountain field. Live weather on the public site comes from a real stand-in station (see public-site/src/lib/aviation.ts).",
+  "source": "Fictional - demo data",
+  "sourceEffectiveDate": "2026-08-06",
+  "icaoId": "KXRG",
+  "faaId": "XRG",
+  "name": "Ridgeline Regional Airport",
+  "city": "Ridgeline",
+  "elevationFt": 5480,
+  "controlTower": false,
+  "publicUse": true,
+  "ctafUnicomMhz": "122.8",
+  "awosMhz": "118.375",
+  "awosPhone": "555-555-0199",
+  "runways": [
+    {
+      "id": "15/33",
+      "lengthFt": 6400,
+      "widthFt": 75,
+      "surface": "asphalt, in good condition",
+      "lighting": "MIRL (medium intensity edge lights), REIL both ends, PAPI both ends",
+      "trafficPattern": {
+        "15": "left",
+        "33": "right"
+      }
+    }
+  ],
+  "notes": [
+    "Cold temperature airport - altitude correction required at or below -15C.",
+    "Wildlife on and in the vicinity of the airport.",
+    "Snow removal may leave banks along runway/taxiway edges in winter."
+  ]
+}

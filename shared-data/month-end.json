@@ -1,0 +1,1362 @@
+{
+  "_note": "Generated demo data - every record is fabricated. No real customer, aircraft, or financial record appears here.",
+  "months": {
+    "2025-08": {
+      "label": "August 2025",
+      "sourceWorkbook": "generated (synthetic demo data)",
+      "fuel": {
+        "100LL": {
+          "totalGallonsPumped": 4241.5,
+          "sheetStatedGallonsPumped": 4241.5,
+          "totalOverShortGal": -84,
+          "leakCheck": {
+            "gallons": 4241.5,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 172.41,
+            "equation": "4,242 × 0.01 + 130 = 172.41 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        },
+        "jetA": {
+          "totalGallonsPumped": 17198.5,
+          "sheetStatedGallonsPumped": 17198.5,
+          "totalOverShortGal": 34,
+          "leakCheck": {
+            "gallons": 17198.5,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 301.99,
+            "equation": "17,198 × 0.01 + 130 = 301.99 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        }
+      },
+      "landingFees": {
+        "grossTotal": 5030.0,
+        "salesTax": 251.5,
+        "ccFees": 176.17,
+        "netAfterCosts": 4602.33,
+        "eightyPctShare": 3681.96,
+        "twentyPctShare": 920.37,
+        "equation": "(5,030.00 − 251.50 tax − 176.17 fees) × 0.20 = 920.37",
+        "amountDue": 920.37,
+        "payTo": "Ridgeline Airport Authority",
+        "splitDirectionUnresolved": false,
+        "flags": []
+      },
+      "shopPurchases": {
+        "sheetStatedTotal": 8127.83,
+        "computedTotal": 8127.83,
+        "equation": "sum of 27 purchases = 8,127.83",
+        "flags": []
+      },
+      "invoices": [],
+      "hangar": {
+        "totalNetRents": 0,
+        "ownerShareLabel": "70% DUE",
+        "ownerShareAmount": 0,
+        "adjustments": 0,
+        "totalDue": 0,
+        "equation": "0.00 net rents × 0.70 = 0.00 due to hangar owner",
+        "flags": []
+      },
+      "rentalCar": {
+        "monthTotal": 0,
+        "flags": []
+      }
+    },
+    "2025-09": {
+      "label": "September 2025",
+      "sourceWorkbook": "generated (synthetic demo data)",
+      "fuel": {
+        "100LL": {
+          "totalGallonsPumped": 3599.0,
+          "sheetStatedGallonsPumped": 3599.0,
+          "totalOverShortGal": -189,
+          "leakCheck": {
+            "gallons": 3599.0,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 165.99,
+            "equation": "3,599 × 0.01 + 130 = 165.99 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "YES",
+            "exceeded": true
+          },
+          "flags": [
+            "Cumulative over/short of -189 gal exceeds the leak-check threshold of 165.99 gal. That is the signal this check exists to catch - inspect the tank, lines, and meter calibration."
+          ]
+        },
+        "jetA": {
+          "totalGallonsPumped": 12841.1,
+          "sheetStatedGallonsPumped": 12841.1,
+          "totalOverShortGal": 53,
+          "leakCheck": {
+            "gallons": 12841.1,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 258.41,
+            "equation": "12,841 × 0.01 + 130 = 258.41 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        }
+      },
+      "landingFees": {
+        "grossTotal": 3690.0,
+        "salesTax": 184.5,
+        "ccFees": 129.23,
+        "netAfterCosts": 3376.27,
+        "eightyPctShare": 2701.08,
+        "twentyPctShare": 675.19,
+        "equation": "(3,690.00 − 184.50 tax − 129.23 fees) × 0.20 = 675.19",
+        "amountDue": 675.19,
+        "payTo": "Ridgeline Airport Authority",
+        "splitDirectionUnresolved": false,
+        "flags": []
+      },
+      "shopPurchases": {
+        "sheetStatedTotal": 7827.46,
+        "computedTotal": 7827.46,
+        "equation": "sum of 31 purchases = 7,827.46",
+        "flags": []
+      },
+      "invoices": [],
+      "hangar": {
+        "totalNetRents": 3568.5,
+        "ownerShareLabel": "70% DUE",
+        "ownerShareAmount": 2497.95,
+        "adjustments": 0,
+        "totalDue": 2497.95,
+        "equation": "3,568.50 net rents × 0.70 = 2,497.95 due to hangar owner",
+        "flags": []
+      },
+      "rentalCar": {
+        "monthTotal": 0,
+        "flags": []
+      }
+    },
+    "2025-10": {
+      "label": "October 2025",
+      "sourceWorkbook": "generated (synthetic demo data)",
+      "fuel": {
+        "100LL": {
+          "totalGallonsPumped": 3069.4,
+          "sheetStatedGallonsPumped": 3069.4,
+          "totalOverShortGal": -119,
+          "leakCheck": {
+            "gallons": 3069.4,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 160.69,
+            "equation": "3,069 × 0.01 + 130 = 160.69 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        },
+        "jetA": {
+          "totalGallonsPumped": 13520.0,
+          "sheetStatedGallonsPumped": 13520.0,
+          "totalOverShortGal": 16,
+          "leakCheck": {
+            "gallons": 13520.0,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 265.2,
+            "equation": "13,520 × 0.01 + 130 = 265.20 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        }
+      },
+      "landingFees": {
+        "grossTotal": 2995.0,
+        "salesTax": 149.75,
+        "ccFees": 104.88,
+        "netAfterCosts": 2740.37,
+        "eightyPctShare": 2192.34,
+        "twentyPctShare": 548.03,
+        "equation": "(2,995.00 − 149.75 tax − 104.88 fees) × 0.20 = 548.03",
+        "amountDue": 548.03,
+        "payTo": "Ridgeline Airport Authority",
+        "splitDirectionUnresolved": false,
+        "flags": []
+      },
+      "shopPurchases": {
+        "sheetStatedTotal": 8063.89,
+        "computedTotal": 8063.89,
+        "equation": "sum of 33 purchases = 8,063.89",
+        "flags": []
+      },
+      "invoices": [],
+      "hangar": {
+        "totalNetRents": 1784.25,
+        "ownerShareLabel": "70% DUE",
+        "ownerShareAmount": 1248.97,
+        "adjustments": 0,
+        "totalDue": 1248.97,
+        "equation": "1,784.25 net rents × 0.70 = 1,248.97 due to hangar owner",
+        "flags": []
+      },
+      "rentalCar": {
+        "monthTotal": 0,
+        "flags": []
+      }
+    },
+    "2025-11": {
+      "label": "November 2025",
+      "sourceWorkbook": "generated (synthetic demo data)",
+      "fuel": {
+        "100LL": {
+          "totalGallonsPumped": 1780.5,
+          "sheetStatedGallonsPumped": 1780.5,
+          "totalOverShortGal": 22,
+          "leakCheck": {
+            "gallons": 1780.5,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 147.81,
+            "equation": "1,780 × 0.01 + 130 = 147.81 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        },
+        "jetA": {
+          "totalGallonsPumped": 6968.3,
+          "sheetStatedGallonsPumped": 6968.3,
+          "totalOverShortGal": 62,
+          "leakCheck": {
+            "gallons": 6968.3,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 199.68,
+            "equation": "6,968 × 0.01 + 130 = 199.68 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        }
+      },
+      "landingFees": {
+        "grossTotal": 1125.0,
+        "salesTax": 56.25,
+        "ccFees": 39.4,
+        "netAfterCosts": 1029.35,
+        "eightyPctShare": 823.5,
+        "twentyPctShare": 205.85,
+        "equation": "(1,125.00 − 56.25 tax − 39.40 fees) × 0.20 = 205.85",
+        "amountDue": 205.85,
+        "payTo": "Ridgeline Airport Authority",
+        "splitDirectionUnresolved": false,
+        "flags": []
+      },
+      "shopPurchases": {
+        "sheetStatedTotal": 20354.56,
+        "computedTotal": 20354.56,
+        "equation": "sum of 39 purchases = 20,354.56",
+        "flags": [
+          "Parts spend of $20,354.56 is well above the usual monthly run rate - driven by a single engine overhaul on N858LR. Expected, but it will distort any month-over-month comparison."
+        ]
+      },
+      "invoices": [],
+      "hangar": {
+        "totalNetRents": 0,
+        "ownerShareLabel": "70% DUE",
+        "ownerShareAmount": 0,
+        "adjustments": 0,
+        "totalDue": 0,
+        "equation": "0.00 net rents × 0.70 = 0.00 due to hangar owner",
+        "flags": []
+      },
+      "rentalCar": {
+        "monthTotal": 0,
+        "flags": []
+      }
+    },
+    "2025-12": {
+      "label": "December 2025",
+      "sourceWorkbook": "generated (synthetic demo data)",
+      "fuel": {
+        "100LL": {
+          "totalGallonsPumped": 1630.2,
+          "sheetStatedGallonsPumped": 1630.2,
+          "totalOverShortGal": -49,
+          "leakCheck": {
+            "gallons": 1630.2,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 146.3,
+            "equation": "1,630 × 0.01 + 130 = 146.30 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        },
+        "jetA": {
+          "totalGallonsPumped": 8270.4,
+          "sheetStatedGallonsPumped": 8270.4,
+          "totalOverShortGal": 21,
+          "leakCheck": {
+            "gallons": 8270.4,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 212.7,
+            "equation": "8,270 × 0.01 + 130 = 212.70 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        }
+      },
+      "landingFees": {
+        "grossTotal": 1025.0,
+        "salesTax": 51.25,
+        "ccFees": 35.9,
+        "netAfterCosts": 937.85,
+        "eightyPctShare": 750.3,
+        "twentyPctShare": 187.55,
+        "equation": "(1,025.00 − 51.25 tax − 35.90 fees) × 0.20 = 187.55",
+        "amountDue": 187.55,
+        "payTo": "Ridgeline Airport Authority",
+        "splitDirectionUnresolved": false,
+        "flags": []
+      },
+      "shopPurchases": {
+        "sheetStatedTotal": 7998.57,
+        "computedTotal": 7998.57,
+        "equation": "sum of 29 purchases = 7,998.57",
+        "flags": []
+      },
+      "invoices": [],
+      "hangar": {
+        "totalNetRents": 2287.5,
+        "ownerShareLabel": "70% DUE",
+        "ownerShareAmount": 1601.25,
+        "adjustments": 0,
+        "totalDue": 1601.25,
+        "equation": "2,287.50 net rents × 0.70 = 1,601.25 due to hangar owner",
+        "flags": []
+      },
+      "rentalCar": {
+        "monthTotal": 0,
+        "flags": []
+      }
+    },
+    "2026-01": {
+      "label": "January 2026",
+      "sourceWorkbook": "generated (synthetic demo data)",
+      "fuel": {
+        "100LL": {
+          "totalGallonsPumped": 1994.0,
+          "sheetStatedGallonsPumped": 1994.0,
+          "totalOverShortGal": 21,
+          "leakCheck": {
+            "gallons": 1994.0,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 149.94,
+            "equation": "1,994 × 0.01 + 130 = 149.94 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        },
+        "jetA": {
+          "totalGallonsPumped": 9079.2,
+          "sheetStatedGallonsPumped": 9079.2,
+          "totalOverShortGal": -8,
+          "leakCheck": {
+            "gallons": 9079.2,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 220.79,
+            "equation": "9,079 × 0.01 + 130 = 220.79 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        }
+      },
+      "landingFees": {
+        "grossTotal": 1360.0,
+        "salesTax": 68.0,
+        "ccFees": 47.63,
+        "netAfterCosts": 1244.37,
+        "eightyPctShare": 995.52,
+        "twentyPctShare": 248.85,
+        "equation": "(1,360.00 − 68.00 tax − 47.63 fees) × 0.20 = 248.85",
+        "amountDue": 248.85,
+        "payTo": "Ridgeline Airport Authority",
+        "splitDirectionUnresolved": false,
+        "flags": []
+      },
+      "shopPurchases": {
+        "sheetStatedTotal": 7935.41,
+        "computedTotal": 7935.41,
+        "equation": "sum of 29 purchases = 7,935.41",
+        "flags": []
+      },
+      "invoices": [],
+      "hangar": {
+        "totalNetRents": 2196.0,
+        "ownerShareLabel": "70% DUE",
+        "ownerShareAmount": 1537.2,
+        "adjustments": 0,
+        "totalDue": 1537.2,
+        "equation": "2,196.00 net rents × 0.70 = 1,537.20 due to hangar owner",
+        "flags": []
+      },
+      "rentalCar": {
+        "monthTotal": 0,
+        "flags": []
+      }
+    },
+    "2026-02": {
+      "label": "February 2026",
+      "sourceWorkbook": "generated (synthetic demo data)",
+      "fuel": {
+        "100LL": {
+          "totalGallonsPumped": 1870.4,
+          "sheetStatedGallonsPumped": 1870.4,
+          "totalOverShortGal": -65,
+          "leakCheck": {
+            "gallons": 1870.4,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 148.7,
+            "equation": "1,870 × 0.01 + 130 = 148.70 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        },
+        "jetA": {
+          "totalGallonsPumped": 5230.8,
+          "sheetStatedGallonsPumped": 5230.8,
+          "totalOverShortGal": -50,
+          "leakCheck": {
+            "gallons": 5230.8,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 182.31,
+            "equation": "5,231 × 0.01 + 130 = 182.31 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        }
+      },
+      "landingFees": {
+        "grossTotal": 1850.0,
+        "salesTax": 92.5,
+        "ccFees": 64.78,
+        "netAfterCosts": 1692.72,
+        "eightyPctShare": 1354.2,
+        "twentyPctShare": 338.52,
+        "equation": "(1,850.00 − 92.50 tax − 64.78 fees) × 0.20 = 338.52",
+        "amountDue": 338.52,
+        "payTo": "Ridgeline Airport Authority",
+        "splitDirectionUnresolved": false,
+        "flags": []
+      },
+      "shopPurchases": {
+        "sheetStatedTotal": 7794.37,
+        "computedTotal": 7794.37,
+        "equation": "sum of 29 purchases = 7,794.37",
+        "flags": []
+      },
+      "invoices": [],
+      "hangar": {
+        "totalNetRents": 366.0,
+        "ownerShareLabel": "70% DUE",
+        "ownerShareAmount": 256.2,
+        "adjustments": 0,
+        "totalDue": 256.2,
+        "equation": "366.00 net rents × 0.70 = 256.20 due to hangar owner",
+        "flags": []
+      },
+      "rentalCar": {
+        "monthTotal": 0,
+        "flags": []
+      }
+    },
+    "2026-03": {
+      "label": "March 2026",
+      "sourceWorkbook": "generated (synthetic demo data)",
+      "fuel": {
+        "100LL": {
+          "totalGallonsPumped": 2166.4,
+          "sheetStatedGallonsPumped": 2166.4,
+          "totalOverShortGal": -80,
+          "leakCheck": {
+            "gallons": 2166.4,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 151.66,
+            "equation": "2,166 × 0.01 + 130 = 151.66 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        },
+        "jetA": {
+          "totalGallonsPumped": 13718.3,
+          "sheetStatedGallonsPumped": 13718.3,
+          "totalOverShortGal": -680,
+          "leakCheck": {
+            "gallons": 13718.3,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 267.18,
+            "equation": "13,718 × 0.01 + 130 = 267.18 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "YES",
+            "exceeded": true
+          },
+          "flags": [
+            "Cumulative over/short of -680 gal exceeds the leak-check threshold of 267.18 gal. That is the signal this check exists to catch - inspect the tank, lines, and meter calibration."
+          ]
+        }
+      },
+      "landingFees": {
+        "grossTotal": 2315.0,
+        "salesTax": 115.75,
+        "ccFees": 81.07,
+        "netAfterCosts": 2118.18,
+        "eightyPctShare": 1694.58,
+        "twentyPctShare": 423.6,
+        "equation": "(2,315.00 − 115.75 tax − 81.07 fees) × 0.20 = 423.60",
+        "amountDue": 423.6,
+        "payTo": "Ridgeline Airport Authority",
+        "splitDirectionUnresolved": false,
+        "flags": []
+      },
+      "shopPurchases": {
+        "sheetStatedTotal": 8462.0,
+        "computedTotal": 8462.0,
+        "equation": "sum of 31 purchases = 8,462.00",
+        "flags": []
+      },
+      "invoices": [],
+      "hangar": {
+        "totalNetRents": 0,
+        "ownerShareLabel": "70% DUE",
+        "ownerShareAmount": 0,
+        "adjustments": 0,
+        "totalDue": 0,
+        "equation": "0.00 net rents × 0.70 = 0.00 due to hangar owner",
+        "flags": []
+      },
+      "rentalCar": {
+        "monthTotal": 0,
+        "flags": []
+      }
+    },
+    "2026-04": {
+      "label": "April 2026",
+      "sourceWorkbook": "generated (synthetic demo data)",
+      "fuel": {
+        "100LL": {
+          "totalGallonsPumped": 2314.7,
+          "sheetStatedGallonsPumped": 2314.7,
+          "totalOverShortGal": 8,
+          "leakCheck": {
+            "gallons": 2314.7,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 153.15,
+            "equation": "2,315 × 0.01 + 130 = 153.15 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        },
+        "jetA": {
+          "totalGallonsPumped": 10416.7,
+          "sheetStatedGallonsPumped": 10416.7,
+          "totalOverShortGal": -30,
+          "leakCheck": {
+            "gallons": 10416.7,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 234.17,
+            "equation": "10,417 × 0.01 + 130 = 234.17 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        }
+      },
+      "landingFees": {
+        "grossTotal": 2960.0,
+        "salesTax": 148.0,
+        "ccFees": 103.65,
+        "netAfterCosts": 2708.35,
+        "eightyPctShare": 2166.72,
+        "twentyPctShare": 541.63,
+        "equation": "(2,960.00 − 148.00 tax − 103.65 fees) × 0.20 = 541.63",
+        "amountDue": 541.63,
+        "payTo": "Ridgeline Airport Authority",
+        "splitDirectionUnresolved": false,
+        "flags": []
+      },
+      "shopPurchases": {
+        "sheetStatedTotal": 6690.5,
+        "computedTotal": 6690.5,
+        "equation": "sum of 27 purchases = 6,690.50",
+        "flags": []
+      },
+      "invoices": [],
+      "hangar": {
+        "totalNetRents": 3705.75,
+        "ownerShareLabel": "70% DUE",
+        "ownerShareAmount": 2594.02,
+        "adjustments": 0,
+        "totalDue": 2594.02,
+        "equation": "3,705.75 net rents × 0.70 = 2,594.02 due to hangar owner",
+        "flags": []
+      },
+      "rentalCar": {
+        "monthTotal": 0,
+        "flags": []
+      }
+    },
+    "2026-05": {
+      "label": "May 2026",
+      "sourceWorkbook": "generated (synthetic demo data)",
+      "fuel": {
+        "100LL": {
+          "totalGallonsPumped": 3231.7,
+          "sheetStatedGallonsPumped": 3231.7,
+          "totalOverShortGal": 16,
+          "leakCheck": {
+            "gallons": 3231.7,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 162.32,
+            "equation": "3,232 × 0.01 + 130 = 162.32 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        },
+        "jetA": {
+          "totalGallonsPumped": 14144.7,
+          "sheetStatedGallonsPumped": 14144.7,
+          "totalOverShortGal": 3,
+          "leakCheck": {
+            "gallons": 14144.7,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 271.45,
+            "equation": "14,145 × 0.01 + 130 = 271.45 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        }
+      },
+      "landingFees": {
+        "grossTotal": 3970.0,
+        "salesTax": 198.5,
+        "ccFees": 139.02,
+        "netAfterCosts": 3632.48,
+        "eightyPctShare": 2906.04,
+        "twentyPctShare": 726.44,
+        "equation": "(3,970.00 − 198.50 tax − 139.02 fees) × 0.20 = 726.44",
+        "amountDue": 726.44,
+        "payTo": "Ridgeline Airport Authority",
+        "splitDirectionUnresolved": false,
+        "flags": []
+      },
+      "shopPurchases": {
+        "sheetStatedTotal": 7597.42,
+        "computedTotal": 7597.42,
+        "equation": "sum of 33 purchases = 7,597.42",
+        "flags": []
+      },
+      "invoices": [],
+      "hangar": {
+        "totalNetRents": 4529.25,
+        "ownerShareLabel": "70% DUE",
+        "ownerShareAmount": 3170.47,
+        "adjustments": 0,
+        "totalDue": 3170.47,
+        "equation": "4,529.25 net rents × 0.70 = 3,170.47 due to hangar owner",
+        "flags": []
+      },
+      "rentalCar": {
+        "monthTotal": 0,
+        "flags": []
+      }
+    },
+    "2026-06": {
+      "label": "June 2026",
+      "sourceWorkbook": "generated (synthetic demo data)",
+      "fuel": {
+        "100LL": {
+          "totalGallonsPumped": 2982.5,
+          "sheetStatedGallonsPumped": 2982.5,
+          "totalOverShortGal": -126,
+          "leakCheck": {
+            "gallons": 2982.5,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 159.82,
+            "equation": "2,982 × 0.01 + 130 = 159.82 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        },
+        "jetA": {
+          "totalGallonsPumped": 15731.5,
+          "sheetStatedGallonsPumped": 15731.5,
+          "totalOverShortGal": -40,
+          "leakCheck": {
+            "gallons": 15731.5,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 287.31,
+            "equation": "15,732 × 0.01 + 130 = 287.31 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        }
+      },
+      "landingFees": {
+        "grossTotal": 4920.0,
+        "salesTax": 246.0,
+        "ccFees": 172.29,
+        "netAfterCosts": 4501.71,
+        "eightyPctShare": 3601.44,
+        "twentyPctShare": 900.27,
+        "equation": "(4,920.00 − 246.00 tax − 172.29 fees) × 0.20 = 900.27",
+        "amountDue": 900.27,
+        "payTo": "Ridgeline Airport Authority",
+        "splitDirectionUnresolved": false,
+        "flags": []
+      },
+      "shopPurchases": {
+        "sheetStatedTotal": 6204.06,
+        "computedTotal": 6204.06,
+        "equation": "sum of 23 purchases = 6,204.06",
+        "flags": []
+      },
+      "invoices": [],
+      "hangar": {
+        "totalNetRents": 2653.5,
+        "ownerShareLabel": "70% DUE",
+        "ownerShareAmount": 1857.45,
+        "adjustments": 0,
+        "totalDue": 1857.45,
+        "equation": "2,653.50 net rents × 0.70 = 1,857.45 due to hangar owner",
+        "flags": []
+      },
+      "rentalCar": {
+        "monthTotal": 0,
+        "flags": []
+      }
+    },
+    "2026-07": {
+      "label": "July 2026",
+      "sourceWorkbook": "generated (synthetic demo data)",
+      "fuel": {
+        "100LL": {
+          "totalGallonsPumped": 4292.5,
+          "sheetStatedGallonsPumped": 4292.5,
+          "totalOverShortGal": -199,
+          "leakCheck": {
+            "gallons": 4292.5,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 172.93,
+            "equation": "4,292 × 0.01 + 130 = 172.93 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "YES",
+            "exceeded": true
+          },
+          "flags": [
+            "Cumulative over/short of -199 gal exceeds the leak-check threshold of 172.93 gal. That is the signal this check exists to catch - inspect the tank, lines, and meter calibration."
+          ]
+        },
+        "jetA": {
+          "totalGallonsPumped": 21331.2,
+          "sheetStatedGallonsPumped": 21331.2,
+          "totalOverShortGal": -11,
+          "leakCheck": {
+            "gallons": 21331.2,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 343.31,
+            "equation": "21,331 × 0.01 + 130 = 343.31 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        }
+      },
+      "landingFees": {
+        "grossTotal": 5345.0,
+        "salesTax": 267.25,
+        "ccFees": 187.18,
+        "netAfterCosts": 4890.57,
+        "eightyPctShare": 3912.54,
+        "twentyPctShare": 978.03,
+        "equation": "(5,345.00 − 267.25 tax − 187.18 fees) × 0.20 = 978.03",
+        "amountDue": 978.03,
+        "payTo": "Ridgeline Airport Authority",
+        "splitDirectionUnresolved": false,
+        "flags": []
+      },
+      "shopPurchases": {
+        "sheetStatedTotal": 8840.78,
+        "computedTotal": 8840.78,
+        "equation": "sum of 35 purchases = 8,840.78",
+        "flags": []
+      },
+      "invoices": [],
+      "hangar": {
+        "totalNetRents": 5307.0,
+        "ownerShareLabel": "70% DUE",
+        "ownerShareAmount": 3714.9,
+        "adjustments": 0,
+        "totalDue": 3714.9,
+        "equation": "5,307.00 net rents × 0.70 = 3,714.90 due to hangar owner",
+        "flags": []
+      },
+      "rentalCar": {
+        "monthTotal": 0,
+        "flags": []
+      }
+    },
+    "2026-08": {
+      "label": "August 2026",
+      "sourceWorkbook": "generated (synthetic demo data)",
+      "fuel": {
+        "100LL": {
+          "totalGallonsPumped": 4760.9,
+          "sheetStatedGallonsPumped": 4760.9,
+          "totalOverShortGal": -36,
+          "leakCheck": {
+            "gallons": 4760.9,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 177.61,
+            "equation": "4,761 × 0.01 + 130 = 177.61 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        },
+        "jetA": {
+          "totalGallonsPumped": 20774.3,
+          "sheetStatedGallonsPumped": 20774.3,
+          "totalOverShortGal": -65,
+          "leakCheck": {
+            "gallons": 20774.3,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 337.74,
+            "equation": "20,774 × 0.01 + 130 = 337.74 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        }
+      },
+      "landingFees": {
+        "grossTotal": 4800.0,
+        "salesTax": 240.0,
+        "ccFees": 168.11,
+        "netAfterCosts": 4391.89,
+        "eightyPctShare": 3513.6,
+        "twentyPctShare": 878.29,
+        "equation": "(4,800.00 − 240.00 tax − 168.11 fees) × 0.20 = 878.29",
+        "amountDue": 878.29,
+        "payTo": "Ridgeline Airport Authority",
+        "splitDirectionUnresolved": false,
+        "flags": []
+      },
+      "shopPurchases": {
+        "sheetStatedTotal": 8844.98,
+        "computedTotal": 8844.98,
+        "equation": "sum of 35 purchases = 8,844.98",
+        "flags": []
+      },
+      "invoices": [],
+      "hangar": {
+        "totalNetRents": 1326.75,
+        "ownerShareLabel": "70% DUE",
+        "ownerShareAmount": 928.72,
+        "adjustments": 0,
+        "totalDue": 928.72,
+        "equation": "1,326.75 net rents × 0.70 = 928.72 due to hangar owner",
+        "flags": []
+      },
+      "rentalCar": {
+        "monthTotal": 0,
+        "flags": []
+      }
+    },
+    "2026-09": {
+      "label": "September 2026",
+      "sourceWorkbook": "generated (synthetic demo data)",
+      "fuel": {
+        "100LL": {
+          "totalGallonsPumped": 3404.6,
+          "sheetStatedGallonsPumped": 3404.6,
+          "totalOverShortGal": 35,
+          "leakCheck": {
+            "gallons": 3404.6,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 164.05,
+            "equation": "3,405 × 0.01 + 130 = 164.05 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        },
+        "jetA": {
+          "totalGallonsPumped": 13257.1,
+          "sheetStatedGallonsPumped": 13257.1,
+          "totalOverShortGal": -65,
+          "leakCheck": {
+            "gallons": 13257.1,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 262.57,
+            "equation": "13,257 × 0.01 + 130 = 262.57 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        }
+      },
+      "landingFees": {
+        "grossTotal": 4090.0,
+        "salesTax": 204.5,
+        "ccFees": 143.24,
+        "netAfterCosts": 3742.26,
+        "eightyPctShare": 2993.88,
+        "twentyPctShare": 748.38,
+        "equation": "(4,090.00 − 204.50 tax − 143.24 fees) × 0.20 = 748.38",
+        "amountDue": 748.38,
+        "payTo": "Ridgeline Airport Authority",
+        "splitDirectionUnresolved": false,
+        "flags": []
+      },
+      "shopPurchases": {
+        "sheetStatedTotal": 8140.86,
+        "computedTotal": 8140.86,
+        "equation": "sum of 27 purchases = 8,140.86",
+        "flags": []
+      },
+      "invoices": [],
+      "hangar": {
+        "totalNetRents": 3522.75,
+        "ownerShareLabel": "70% DUE",
+        "ownerShareAmount": 2465.93,
+        "adjustments": 0,
+        "totalDue": 2465.93,
+        "equation": "3,522.75 net rents × 0.70 = 2,465.93 due to hangar owner",
+        "flags": []
+      },
+      "rentalCar": {
+        "monthTotal": 0,
+        "flags": []
+      }
+    },
+    "2026-10": {
+      "label": "October 2026",
+      "sourceWorkbook": "generated (synthetic demo data)",
+      "fuel": {
+        "100LL": {
+          "totalGallonsPumped": 2332.8,
+          "sheetStatedGallonsPumped": 2332.8,
+          "totalOverShortGal": -10,
+          "leakCheck": {
+            "gallons": 2332.8,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 153.33,
+            "equation": "2,333 × 0.01 + 130 = 153.33 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        },
+        "jetA": {
+          "totalGallonsPumped": 12340.2,
+          "sheetStatedGallonsPumped": 12340.2,
+          "totalOverShortGal": -14,
+          "leakCheck": {
+            "gallons": 12340.2,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 253.4,
+            "equation": "12,340 × 0.01 + 130 = 253.40 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        }
+      },
+      "landingFees": {
+        "grossTotal": 3440.0,
+        "salesTax": 172.0,
+        "ccFees": 120.45,
+        "netAfterCosts": 3147.55,
+        "eightyPctShare": 2518.08,
+        "twentyPctShare": 629.47,
+        "equation": "(3,440.00 − 172.00 tax − 120.45 fees) × 0.20 = 629.47",
+        "amountDue": 629.47,
+        "payTo": "Ridgeline Airport Authority",
+        "splitDirectionUnresolved": false,
+        "flags": []
+      },
+      "shopPurchases": {
+        "sheetStatedTotal": 8631.81,
+        "computedTotal": 8631.81,
+        "equation": "sum of 35 purchases = 8,631.81",
+        "flags": []
+      },
+      "invoices": [],
+      "hangar": {
+        "totalNetRents": 594.75,
+        "ownerShareLabel": "70% DUE",
+        "ownerShareAmount": 416.32,
+        "adjustments": 0,
+        "totalDue": 416.32,
+        "equation": "594.75 net rents × 0.70 = 416.32 due to hangar owner",
+        "flags": []
+      },
+      "rentalCar": {
+        "monthTotal": 0,
+        "flags": []
+      }
+    },
+    "2026-11": {
+      "label": "November 2026",
+      "sourceWorkbook": "generated (synthetic demo data)",
+      "fuel": {
+        "100LL": {
+          "totalGallonsPumped": 1804.7,
+          "sheetStatedGallonsPumped": 1804.7,
+          "totalOverShortGal": -31,
+          "leakCheck": {
+            "gallons": 1804.7,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 148.05,
+            "equation": "1,805 × 0.01 + 130 = 148.05 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        },
+        "jetA": {
+          "totalGallonsPumped": 9697.9,
+          "sheetStatedGallonsPumped": 9697.9,
+          "totalOverShortGal": 15,
+          "leakCheck": {
+            "gallons": 9697.9,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 226.98,
+            "equation": "9,698 × 0.01 + 130 = 226.98 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        }
+      },
+      "landingFees": {
+        "grossTotal": 950.0,
+        "salesTax": 47.5,
+        "ccFees": 33.27,
+        "netAfterCosts": 869.23,
+        "eightyPctShare": 695.4,
+        "twentyPctShare": 173.83,
+        "equation": "(950.00 − 47.50 tax − 33.27 fees) × 0.20 = 173.83",
+        "amountDue": 173.83,
+        "payTo": "Ridgeline Airport Authority",
+        "splitDirectionUnresolved": false,
+        "flags": []
+      },
+      "shopPurchases": {
+        "sheetStatedTotal": 7954.74,
+        "computedTotal": 7954.74,
+        "equation": "sum of 29 purchases = 7,954.74",
+        "flags": []
+      },
+      "invoices": [],
+      "hangar": {
+        "totalNetRents": 0,
+        "ownerShareLabel": "70% DUE",
+        "ownerShareAmount": 0,
+        "adjustments": 0,
+        "totalDue": 0,
+        "equation": "0.00 net rents × 0.70 = 0.00 due to hangar owner",
+        "flags": []
+      },
+      "rentalCar": {
+        "monthTotal": 0,
+        "flags": []
+      }
+    },
+    "2026-12": {
+      "label": "December 2026",
+      "sourceWorkbook": "generated (synthetic demo data)",
+      "fuel": {
+        "100LL": {
+          "totalGallonsPumped": 1993.7,
+          "sheetStatedGallonsPumped": 1993.7,
+          "totalOverShortGal": -14,
+          "leakCheck": {
+            "gallons": 1993.7,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 149.94,
+            "equation": "1,994 × 0.01 + 130 = 149.94 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        },
+        "jetA": {
+          "totalGallonsPumped": 8967.2,
+          "sheetStatedGallonsPumped": 8967.2,
+          "totalOverShortGal": 40,
+          "leakCheck": {
+            "gallons": 8967.2,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 219.67,
+            "equation": "8,967 × 0.01 + 130 = 219.67 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        }
+      },
+      "landingFees": {
+        "grossTotal": 965.0,
+        "salesTax": 48.25,
+        "ccFees": 33.8,
+        "netAfterCosts": 882.95,
+        "eightyPctShare": 706.38,
+        "twentyPctShare": 176.57,
+        "equation": "(965.00 − 48.25 tax − 33.80 fees) × 0.20 = 176.57",
+        "amountDue": 176.57,
+        "payTo": "Ridgeline Airport Authority",
+        "splitDirectionUnresolved": false,
+        "flags": []
+      },
+      "shopPurchases": {
+        "sheetStatedTotal": 8004.46,
+        "computedTotal": 8004.46,
+        "equation": "sum of 30 purchases = 8,004.46",
+        "flags": []
+      },
+      "invoices": [],
+      "hangar": {
+        "totalNetRents": 0,
+        "ownerShareLabel": "70% DUE",
+        "ownerShareAmount": 0,
+        "adjustments": 0,
+        "totalDue": 0,
+        "equation": "0.00 net rents × 0.70 = 0.00 due to hangar owner",
+        "flags": []
+      },
+      "rentalCar": {
+        "monthTotal": 0,
+        "flags": []
+      }
+    },
+    "2027-01": {
+      "label": "January 2027",
+      "sourceWorkbook": "generated (synthetic demo data)",
+      "fuel": {
+        "100LL": {
+          "totalGallonsPumped": 1942.9,
+          "sheetStatedGallonsPumped": 1942.9,
+          "totalOverShortGal": 23,
+          "leakCheck": {
+            "gallons": 1942.9,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 149.43,
+            "equation": "1,943 × 0.01 + 130 = 149.43 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        },
+        "jetA": {
+          "totalGallonsPumped": 11363.8,
+          "sheetStatedGallonsPumped": 11363.8,
+          "totalOverShortGal": -8,
+          "leakCheck": {
+            "gallons": 11363.8,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 243.64,
+            "equation": "11,364 × 0.01 + 130 = 243.64 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        }
+      },
+      "landingFees": {
+        "grossTotal": 480.0,
+        "salesTax": 24.0,
+        "ccFees": 16.81,
+        "netAfterCosts": 439.19,
+        "eightyPctShare": 351.36,
+        "twentyPctShare": 87.83,
+        "equation": "(480.00 − 24.00 tax − 16.81 fees) × 0.20 = 87.83",
+        "amountDue": 87.83,
+        "payTo": "Ridgeline Airport Authority",
+        "splitDirectionUnresolved": false,
+        "flags": []
+      },
+      "shopPurchases": {
+        "sheetStatedTotal": 5663.51,
+        "computedTotal": 5663.51,
+        "equation": "sum of 25 purchases = 5,663.51",
+        "flags": []
+      },
+      "invoices": [],
+      "hangar": {
+        "totalNetRents": 0,
+        "ownerShareLabel": "70% DUE",
+        "ownerShareAmount": 0,
+        "adjustments": 0,
+        "totalDue": 0,
+        "equation": "0.00 net rents × 0.70 = 0.00 due to hangar owner",
+        "flags": []
+      },
+      "rentalCar": {
+        "monthTotal": 0,
+        "flags": []
+      }
+    },
+    "2027-02": {
+      "label": "February 2027",
+      "sourceWorkbook": "generated (synthetic demo data)",
+      "fuel": {
+        "100LL": {
+          "totalGallonsPumped": 1941.0,
+          "sheetStatedGallonsPumped": 1941.0,
+          "totalOverShortGal": 69,
+          "leakCheck": {
+            "gallons": 1941.0,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 149.41,
+            "equation": "1,941 × 0.01 + 130 = 149.41 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        },
+        "jetA": {
+          "totalGallonsPumped": 8476.4,
+          "sheetStatedGallonsPumped": 8476.4,
+          "totalOverShortGal": -23,
+          "leakCheck": {
+            "gallons": 8476.4,
+            "ratePerGallon": 0.01,
+            "allowanceGal": 130.0,
+            "threshold": 214.76,
+            "equation": "8,476 × 0.01 + 130 = 214.76 gal",
+            "question": "Is total daily over/short larger than the leak-check result?",
+            "sheetResult": "NO",
+            "exceeded": false
+          },
+          "flags": []
+        }
+      },
+      "landingFees": {
+        "grossTotal": 1525.0,
+        "salesTax": 76.25,
+        "ccFees": 53.41,
+        "netAfterCosts": 1395.34,
+        "eightyPctShare": 1116.3,
+        "twentyPctShare": 279.04,
+        "equation": "(1,525.00 − 76.25 tax − 53.41 fees) × 0.20 = 279.04",
+        "amountDue": 279.04,
+        "payTo": "Ridgeline Airport Authority",
+        "splitDirectionUnresolved": false,
+        "flags": []
+      },
+      "shopPurchases": {
+        "sheetStatedTotal": 9661.68,
+        "computedTotal": 9661.68,
+        "equation": "sum of 31 purchases = 9,661.68",
+        "flags": []
+      },
+      "invoices": [],
+      "hangar": {
+        "totalNetRents": 3477.0,
+        "ownerShareLabel": "70% DUE",
+        "ownerShareAmount": 2433.9,
+        "adjustments": 0,
+        "totalDue": 2433.9,
+        "equation": "3,477.00 net rents × 0.70 = 2,433.90 due to hangar owner",
+        "flags": []
+      },
+      "rentalCar": {
+        "monthTotal": 0,
+        "flags": []
+      }
+    }
+  }
+}

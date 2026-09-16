@@ -1,0 +1,19 @@
+<svg width="320" height="80" viewBox="0 0 320 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AirportHQ">
+  <!-- Icon: simplified radar/compass sweep — reads as "live data," not literal clip art -->
+  <g transform="translate(40,40)">
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#1B2B44" stroke-width="3"/>
+    <circle cx="0" cy="0" r="19" fill="none" stroke="#1B2B44" stroke-width="1.5" opacity="0.4"/>
+    <!-- sweep wedge -->
+    <path d="M0 0 L0 -30 A30 30 0 0 1 21.2 -21.2 Z" fill="#E0A526" opacity="0.85"/>
+    <!-- center point -->
+    <circle cx="0" cy="0" r="4" fill="#1B2B44"/>
+    <!-- cardinal ticks -->
+    <line x1="0" y1="-30" x2="0" y2="-25" stroke="#1B2B44" stroke-width="3"/>
+    <line x1="0" y1="30" x2="0" y2="25" stroke="#1B2B44" stroke-width="3"/>
+    <line x1="-30" y1="0" x2="-25" y2="0" stroke="#1B2B44" stroke-width="3"/>
+    <line x1="30" y1="0" x2="25" y2="0" stroke="#1B2B44" stroke-width="3"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="86" y="49" font-family="Inter, system-ui, sans-serif" font-size="30" font-weight="700" fill="#1B2B44">Airport<tspan fill="#E0A526">HQ</tspan></text>
+</svg>

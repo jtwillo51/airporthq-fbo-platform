@@ -1,0 +1,40 @@
+/* Ridgeline Aviation / Summit Jet Center — design tokens
+   Approximate values read from the live site (ridgeline-aviation.example).
+   Verify/replace with exact brand values if the client provides
+   original logo or brand files. */
+
+:root {
+  /* Brand */
+  --color-primary: #6E1E2C;        /* primary maroon — header, buttons, nav */
+  --color-primary-dark: #551723;   /* hover/active state */
+  --color-accent: #C9A227;         /* muted gold, used sparingly (dividers, timestamps) */
+
+  /* Neutrals */
+  --color-bg: #FBFAF8;
+  --color-bg-alt: #FFFFFF;
+  --color-text: #2A2A2A;
+  --color-text-muted: #6B6B6B;
+  --color-icon-stroke: #9AA0A6;
+  --color-border: #E7E3DD;
+
+  /* Status (for the fuel price "last updated" state) */
+  --color-fresh: #2E8B57;   /* updated recently */
+  --color-stale: #C9A227;   /* getting old — nudge, not alarm */
+  --color-expired: #A3323F; /* clearly out of date */
+
+  /* Typography */
+  --font-display: 'Cormorant', 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', 'Source Sans 3', system-ui, sans-serif;
+
+  /* Spacing scale */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+
+  /* Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-pill: 999px;
+}

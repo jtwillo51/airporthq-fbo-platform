@@ -1,0 +1,17 @@
+{
+  "_note": "Seed values for the prototype. Jet A retail sourced from the one row labeled 'Jet A+ Fuel Retail' in the source spreadsheet. 100LL has no equivalent labeled retail rate anywhere in the source data - PLACEHOLDER, confirm with staff before treating as real.",
+  "avgas100LL": {
+    "price": 5.99,
+    "isPlaceholder": true
+  },
+  "jetAFullServe": {
+    "price": 8.39,
+    "isPlaceholder": false
+  },
+  "jetASelfServe": {
+    "price": 6.99,
+    "isPlaceholder": true
+  },
+  "updatedAt": "2026-08-19",
+  "updatedBy": "prototype-seed"
+}

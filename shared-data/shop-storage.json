@@ -1,0 +1,3178 @@
+{
+  "_note": "Generated demo data - every record is fabricated. No real customer, aircraft, or financial record appears here. Aircraft in shop storage, by date.",
+  "days": [
+    {
+      "date": "2025-08-01",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-02",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-03",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-04",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-05",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-06",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-07",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-08",
+      "tailNumbers": [
+        "N963CB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-09",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-10",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-11",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-12",
+      "tailNumbers": [
+        "N882VM"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-13",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-14",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-15",
+      "tailNumbers": [
+        "N963CB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-16",
+      "tailNumbers": [
+        "N882VM"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-17",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-18",
+      "tailNumbers": [
+        "N858LR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-19",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-20",
+      "tailNumbers": [
+        "N966TQ"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-21",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-22",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-23",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-24",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-25",
+      "tailNumbers": [
+        "N985ZB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-26",
+      "tailNumbers": [
+        "N826YK"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-27",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-28",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-29",
+      "tailNumbers": [
+        "N840SH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-30",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-31",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-01",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-02",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-03",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-04",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-05",
+      "tailNumbers": [
+        "N882DR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-06",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-07",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-08",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-09",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-10",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-11",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-12",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-13",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-14",
+      "tailNumbers": [
+        "N840SH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-15",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-16",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-17",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-18",
+      "tailNumbers": [
+        "N840SH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-19",
+      "tailNumbers": [
+        "N912RP"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-20",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-21",
+      "tailNumbers": [
+        "N882DR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-22",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-23",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-24",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-25",
+      "tailNumbers": [
+        "N882DR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-26",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-27",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-28",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-29",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-30",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-01",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-02",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-03",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-04",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-05",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-06",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-07",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-08",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-09",
+      "tailNumbers": [
+        "N840SH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-10",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-11",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-12",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-13",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-14",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-15",
+      "tailNumbers": [
+        "N882VM"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-16",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-17",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-18",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-19",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-20",
+      "tailNumbers": [
+        "N882DR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-21",
+      "tailNumbers": [
+        "N966TQ"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-22",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-23",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-24",
+      "tailNumbers": [
+        "N963CB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-25",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-26",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-27",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-28",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-29",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-30",
+      "tailNumbers": [
+        "N882DR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-31",
+      "tailNumbers": [
+        "N882VM"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-01",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-02",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-03",
+      "tailNumbers": [
+        "N863KS"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-04",
+      "tailNumbers": [
+        "N985ZB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-05",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-06",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-07",
+      "tailNumbers": [
+        "N882DR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-08",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-09",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-10",
+      "tailNumbers": [
+        "N912RP"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-11",
+      "tailNumbers": [
+        "N912RP"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-12",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-13",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-14",
+      "tailNumbers": [
+        "N966TQ"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-15",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-16",
+      "tailNumbers": [
+        "N882VM"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-17",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-18",
+      "tailNumbers": [
+        "N826YK"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-19",
+      "tailNumbers": [
+        "N882DR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-20",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-21",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-22",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-23",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-24",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-25",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-26",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-27",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-28",
+      "tailNumbers": [
+        "N826YK"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-29",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-30",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-01",
+      "tailNumbers": [
+        "N858LR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-02",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-03",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-04",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-05",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-06",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-07",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-08",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-09",
+      "tailNumbers": [
+        "N912RP"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-10",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-11",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-12",
+      "tailNumbers": [
+        "N912RP"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-13",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-14",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-15",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-16",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-17",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-18",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-19",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-20",
+      "tailNumbers": [
+        "N966TQ"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-21",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-22",
+      "tailNumbers": [
+        "N985ZB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-23",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-24",
+      "tailNumbers": [
+        "N858LR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-25",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-26",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-27",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-28",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-29",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-30",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-31",
+      "tailNumbers": [
+        "N963CB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-01",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-02",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-03",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-04",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-05",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-06",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-07",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-08",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-09",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-10",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-11",
+      "tailNumbers": [
+        "N830XH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-12",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-13",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-14",
+      "tailNumbers": [
+        "N882VM"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-15",
+      "tailNumbers": [
+        "N985ZB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-16",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-17",
+      "tailNumbers": [
+        "N882DR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-18",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-19",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-20",
+      "tailNumbers": [
+        "N882DR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-21",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-22",
+      "tailNumbers": [
+        "N882VM"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-23",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-24",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-25",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-26",
+      "tailNumbers": [
+        "N882DR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-27",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-28",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-29",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-30",
+      "tailNumbers": [
+        "N826YK"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-31",
+      "tailNumbers": [
+        "N963CB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-01",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-02",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-03",
+      "tailNumbers": [
+        "N882VM"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-04",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-05",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-06",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-07",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-08",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-09",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-10",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-11",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-12",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-13",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-14",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-15",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-16",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-17",
+      "tailNumbers": [
+        "N830XH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-18",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-19",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-20",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-21",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-22",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-23",
+      "tailNumbers": [
+        "N863KS"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-24",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-25",
+      "tailNumbers": [
+        "N882DR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-26",
+      "tailNumbers": [
+        "N966TQ"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-27",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-28",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-01",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-02",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-03",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-04",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-05",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-06",
+      "tailNumbers": [
+        "N963CB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-07",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-08",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-09",
+      "tailNumbers": [
+        "N863KS"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-10",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-11",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-12",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-13",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-14",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-15",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-16",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-17",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-18",
+      "tailNumbers": [
+        "N963CB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-19",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-20",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-21",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-22",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-23",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-24",
+      "tailNumbers": [
+        "N912RP"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-25",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-26",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-27",
+      "tailNumbers": [
+        "N858LR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-28",
+      "tailNumbers": [
+        "N963CB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-29",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-30",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-31",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-01",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-02",
+      "tailNumbers": [
+        "N840SH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-03",
+      "tailNumbers": [
+        "N858LR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-04",
+      "tailNumbers": [
+        "N826YK"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-05",
+      "tailNumbers": [
+        "N966TQ"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-06",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-07",
+      "tailNumbers": [
+        "N912RP"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-08",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-09",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-10",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-11",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-12",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-13",
+      "tailNumbers": [
+        "N830XH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-14",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-15",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-16",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-17",
+      "tailNumbers": [
+        "N882DR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-18",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-19",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-20",
+      "tailNumbers": [
+        "N882DR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-21",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-22",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-23",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-24",
+      "tailNumbers": [
+        "N863KS"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-25",
+      "tailNumbers": [
+        "N963CB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-26",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-27",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-28",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-29",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-30",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-01",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-02",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-03",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-04",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-05",
+      "tailNumbers": [
+        "N840SH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-06",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-07",
+      "tailNumbers": [
+        "N858LR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-08",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-09",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-10",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-11",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-12",
+      "tailNumbers": [
+        "N830XH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-13",
+      "tailNumbers": [
+        "N826YK"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-14",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-15",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-16",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-17",
+      "tailNumbers": [
+        "N863KS"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-18",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-19",
+      "tailNumbers": [
+        "N882DR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-20",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-21",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-22",
+      "tailNumbers": [
+        "N830XH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-23",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-24",
+      "tailNumbers": [
+        "N985ZB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-25",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-26",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-27",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-28",
+      "tailNumbers": [
+        "N826YK"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-29",
+      "tailNumbers": [
+        "N840SH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-30",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-31",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-01",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-02",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-03",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-04",
+      "tailNumbers": [
+        "N882VM"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-05",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-06",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-07",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-08",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-09",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-10",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-11",
+      "tailNumbers": [
+        "N882DR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-12",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-13",
+      "tailNumbers": [
+        "N840SH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-14",
+      "tailNumbers": [
+        "N863KS"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-15",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-16",
+      "tailNumbers": [
+        "N985ZB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-17",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-18",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-19",
+      "tailNumbers": [
+        "N912RP"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-20",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-21",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-22",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-23",
+      "tailNumbers": [
+        "N863KS"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-24",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-25",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-26",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-27",
+      "tailNumbers": [
+        "N963CB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-28",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-29",
+      "tailNumbers": [
+        "N830XH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-30",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-01",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-02",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-03",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-04",
+      "tailNumbers": [
+        "N826YK"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-05",
+      "tailNumbers": [
+        "N985ZB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-06",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-07",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-08",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-09",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-10",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-11",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-12",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-13",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-14",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-15",
+      "tailNumbers": [
+        "N882DR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-16",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-17",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-18",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-19",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-20",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-21",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-22",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-23",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-24",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-25",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-26",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-27",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-28",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-29",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-30",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-31",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-01",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-02",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-03",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-04",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-05",
+      "tailNumbers": [
+        "N966TQ"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-06",
+      "tailNumbers": [
+        "N863KS"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-07",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-08",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-09",
+      "tailNumbers": [
+        "N985ZB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-10",
+      "tailNumbers": [
+        "N882VM"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-11",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-12",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-13",
+      "tailNumbers": [
+        "N826YK"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-14",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-15",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-16",
+      "tailNumbers": [
+        "N830XH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-17",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-18",
+      "tailNumbers": [
+        "N966TQ"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-19",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-20",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-21",
+      "tailNumbers": [
+        "N840SH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-22",
+      "tailNumbers": [
+        "N840SH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-23",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-24",
+      "tailNumbers": [
+        "N840SH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-25",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-26",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-27",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-28",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-29",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-30",
+      "tailNumbers": [
+        "N830XH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-31",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-01",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-02",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-03",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-04",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-05",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-06",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-07",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-08",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-09",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-10",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-11",
+      "tailNumbers": [
+        "N840SH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-12",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-13",
+      "tailNumbers": [
+        "N985ZB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-14",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-15",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-16",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-17",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-18",
+      "tailNumbers": [
+        "N826YK"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-19",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-20",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-21",
+      "tailNumbers": [
+        "N912RP"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-22",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-23",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-24",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-25",
+      "tailNumbers": [
+        "N963CB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-26",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-27",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-28",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-29",
+      "tailNumbers": [
+        "N912RP"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-30",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-01",
+      "tailNumbers": [
+        "N882VM"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-02",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-03",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-04",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-05",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-06",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-07",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-08",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-09",
+      "tailNumbers": [
+        "N830XH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-10",
+      "tailNumbers": [
+        "N882VM"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-11",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-12",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-13",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-14",
+      "tailNumbers": [
+        "N840SH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-15",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-16",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-17",
+      "tailNumbers": [
+        "N840SH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-18",
+      "tailNumbers": [
+        "N858LR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-19",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-20",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-21",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-22",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-23",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-24",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-25",
+      "tailNumbers": [
+        "N863KS"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-26",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-27",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-28",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-29",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-30",
+      "tailNumbers": [
+        "N863KS"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-31",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-01",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-02",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-03",
+      "tailNumbers": [
+        "N840SH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-04",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-05",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-06",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-07",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-08",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-09",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-10",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-11",
+      "tailNumbers": [
+        "N840SH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-12",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-13",
+      "tailNumbers": [
+        "N863KS"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-14",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-15",
+      "tailNumbers": [
+        "N912RP"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-16",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-17",
+      "tailNumbers": [
+        "N863KS"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-18",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-19",
+      "tailNumbers": [
+        "N985ZB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-20",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-21",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-22",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-23",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-24",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-25",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-26",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-27",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-28",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-29",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-30",
+      "tailNumbers": [
+        "N840SH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-01",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-02",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-03",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-04",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-05",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-06",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-07",
+      "tailNumbers": [
+        "N882DR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-08",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-09",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-10",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-11",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-12",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-13",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-14",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-15",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-16",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-17",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-18",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-19",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-20",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-21",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-22",
+      "tailNumbers": [
+        "N826YK"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-23",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-24",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-25",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-26",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-27",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-28",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-29",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-30",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-31",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-01",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-02",
+      "tailNumbers": [
+        "N863KS"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-03",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-04",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-05",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-06",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-07",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-08",
+      "tailNumbers": [
+        "N882DR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-09",
+      "tailNumbers": [
+        "N840SH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-10",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-11",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-12",
+      "tailNumbers": [
+        "N840SH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-13",
+      "tailNumbers": [
+        "N912RP"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-14",
+      "tailNumbers": [
+        "N830XH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-15",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-16",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-17",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-18",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-19",
+      "tailNumbers": [
+        "N840SH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-20",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-21",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-22",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-23",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-24",
+      "tailNumbers": [
+        "N840SH"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-25",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-26",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-27",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-28",
+      "tailNumbers": [
+        "N963CB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-29",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-30",
+      "tailNumbers": [
+        "N882DR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-31",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-01",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-02",
+      "tailNumbers": [
+        "N963CB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-03",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-04",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-05",
+      "tailNumbers": [
+        "N912RP"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-06",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-07",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-08",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-09",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-10",
+      "tailNumbers": [
+        "N985ZB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-11",
+      "tailNumbers": [
+        "N882DR"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-12",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-13",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-14",
+      "tailNumbers": [
+        "N863KS"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-15",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-16",
+      "tailNumbers": [
+        "N912RP"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-17",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-18",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-19",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-20",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-21",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-22",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-23",
+      "tailNumbers": [
+        "N826YK"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-24",
+      "tailNumbers": [
+        "N963CB"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-25",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-26",
+      "tailNumbers": [],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-27",
+      "tailNumbers": [
+        "N826YK"
+      ],
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-28",
+      "tailNumbers": [],
+      "synthetic": true
+    }
+  ]
+}

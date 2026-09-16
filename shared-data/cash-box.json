@@ -1,0 +1,821 @@
+{
+  "_note": "Generated demo data - every record is fabricated. No real customer, aircraft, or financial record appears here.",
+  "entries": [
+    {
+      "date": "2025-08-09",
+      "transactionDetails": "Pilot supplies",
+      "amount": 16.73,
+      "runningTotal": 342.08,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2025-08-23",
+      "transactionDetails": "Avgas self-serve cash",
+      "amount": 125.88,
+      "runningTotal": 467.96,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-06",
+      "transactionDetails": "Ramp fee cash",
+      "amount": 162.06,
+      "runningTotal": 630.02,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-13",
+      "transactionDetails": "Avgas self-serve cash",
+      "amount": -25.05,
+      "runningTotal": 604.97,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-19",
+      "transactionDetails": "Pilot supplies",
+      "amount": -8.13,
+      "runningTotal": 596.84,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-20",
+      "transactionDetails": "Oil sale",
+      "amount": 113.25,
+      "runningTotal": 710.09,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-27",
+      "transactionDetails": "Donation jar",
+      "amount": 29.34,
+      "runningTotal": 739.43,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2025-09-28",
+      "transactionDetails": "Donation jar",
+      "amount": 14.52,
+      "runningTotal": 753.95,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-02",
+      "transactionDetails": "Petty cash out",
+      "amount": -35.7,
+      "runningTotal": 718.25,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-03",
+      "transactionDetails": "Donation jar",
+      "amount": 23.21,
+      "runningTotal": 741.46,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-10",
+      "transactionDetails": "Ramp fee cash",
+      "amount": 8.19,
+      "runningTotal": 749.65,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-11",
+      "transactionDetails": "Avgas self-serve cash",
+      "amount": -33.23,
+      "runningTotal": 716.42,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-14",
+      "transactionDetails": "Oil sale",
+      "amount": 30.78,
+      "runningTotal": 747.2,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-19",
+      "transactionDetails": "Avgas self-serve cash",
+      "amount": 80.8,
+      "runningTotal": 828.0,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-21",
+      "transactionDetails": "Avgas self-serve cash",
+      "amount": 216.76,
+      "runningTotal": 1044.76,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-24",
+      "transactionDetails": "Avgas self-serve cash",
+      "amount": 201.32,
+      "runningTotal": 1246.08,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-25",
+      "transactionDetails": "Avgas self-serve cash",
+      "amount": 192.44,
+      "runningTotal": 1438.52,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2025-10-30",
+      "transactionDetails": "Donation jar",
+      "amount": 189.34,
+      "runningTotal": 1627.86,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-03",
+      "transactionDetails": "Petty cash out",
+      "amount": 71.45,
+      "runningTotal": 1699.31,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-06",
+      "transactionDetails": "Petty cash out",
+      "amount": -23.3,
+      "runningTotal": 1676.01,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-07",
+      "transactionDetails": "Pilot supplies",
+      "amount": 165.5,
+      "runningTotal": 1841.51,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-09",
+      "transactionDetails": "Petty cash out",
+      "amount": 46.63,
+      "runningTotal": 1888.14,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2025-11-11",
+      "transactionDetails": "Petty cash out",
+      "amount": 37.13,
+      "runningTotal": 1925.27,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-20",
+      "transactionDetails": "Pilot supplies",
+      "amount": 163.76,
+      "runningTotal": 2089.03,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2025-12-22",
+      "transactionDetails": "Donation jar",
+      "amount": 37.53,
+      "runningTotal": 2126.56,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-01",
+      "transactionDetails": "Avgas self-serve cash",
+      "amount": 197.02,
+      "runningTotal": 2323.58,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-08",
+      "transactionDetails": "Ramp fee cash",
+      "amount": 98.81,
+      "runningTotal": 2422.39,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-09",
+      "transactionDetails": "Donation jar",
+      "amount": -11.77,
+      "runningTotal": 2410.62,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-01-13",
+      "transactionDetails": "Petty cash out",
+      "amount": 201.14,
+      "runningTotal": 2611.76,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-01",
+      "transactionDetails": "Ramp fee cash",
+      "amount": 13.01,
+      "runningTotal": 2624.77,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-06",
+      "transactionDetails": "Avgas self-serve cash",
+      "amount": -10.93,
+      "runningTotal": 2613.84,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-07",
+      "transactionDetails": "Donation jar",
+      "amount": 112.32,
+      "runningTotal": 2726.16,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-19",
+      "transactionDetails": "Donation jar",
+      "amount": -38.68,
+      "runningTotal": 2687.48,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-02-28",
+      "transactionDetails": "Pilot supplies",
+      "amount": 131.64,
+      "runningTotal": 2819.12,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-05",
+      "transactionDetails": "Oil sale",
+      "amount": 121.17,
+      "runningTotal": 2940.29,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-07",
+      "transactionDetails": "Oil sale",
+      "amount": 61.78,
+      "runningTotal": 3002.07,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-10",
+      "transactionDetails": "Ramp fee cash",
+      "amount": -13.03,
+      "runningTotal": 2989.04,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-13",
+      "transactionDetails": "Oil sale",
+      "amount": 77.78,
+      "runningTotal": 3066.82,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-03-24",
+      "transactionDetails": "Ramp fee cash",
+      "amount": 97.17,
+      "runningTotal": 3163.99,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-09",
+      "transactionDetails": "Petty cash out",
+      "amount": 192.88,
+      "runningTotal": 3356.87,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-10",
+      "transactionDetails": "Donation jar",
+      "amount": -36.48,
+      "runningTotal": 3320.39,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-13",
+      "transactionDetails": "Pilot supplies",
+      "amount": 20.29,
+      "runningTotal": 3340.68,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-20",
+      "transactionDetails": "Avgas self-serve cash",
+      "amount": -21.03,
+      "runningTotal": 3319.65,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-24",
+      "transactionDetails": "Pilot supplies",
+      "amount": 102.36,
+      "runningTotal": 3422.01,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-04-27",
+      "transactionDetails": "Petty cash out",
+      "amount": 12.18,
+      "runningTotal": 3434.19,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-01",
+      "transactionDetails": "Oil sale",
+      "amount": 54.09,
+      "runningTotal": 3488.28,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-03",
+      "transactionDetails": "Donation jar",
+      "amount": 12.62,
+      "runningTotal": 3500.9,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-05",
+      "transactionDetails": "Ramp fee cash",
+      "amount": 200.01,
+      "runningTotal": 3700.91,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-07",
+      "transactionDetails": "Donation jar",
+      "amount": 177.13,
+      "runningTotal": 3878.04,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-10",
+      "transactionDetails": "Ramp fee cash",
+      "amount": 64.7,
+      "runningTotal": 3942.74,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-23",
+      "transactionDetails": "Pilot supplies",
+      "amount": -9.33,
+      "runningTotal": 3933.41,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-05-31",
+      "transactionDetails": "Donation jar",
+      "amount": 67.24,
+      "runningTotal": 4000.65,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-01",
+      "transactionDetails": "Donation jar",
+      "amount": -34.75,
+      "runningTotal": 3965.9,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-03",
+      "transactionDetails": "Petty cash out",
+      "amount": 148.95,
+      "runningTotal": 4114.85,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-07",
+      "transactionDetails": "Pilot supplies",
+      "amount": 149.15,
+      "runningTotal": 4264.0,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-17",
+      "transactionDetails": "Avgas self-serve cash",
+      "amount": 10.64,
+      "runningTotal": 4274.64,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-18",
+      "transactionDetails": "Pilot supplies",
+      "amount": 185.03,
+      "runningTotal": 4459.67,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-19",
+      "transactionDetails": "Petty cash out",
+      "amount": 101.42,
+      "runningTotal": 4561.09,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-06-28",
+      "transactionDetails": "Avgas self-serve cash",
+      "amount": 101.39,
+      "runningTotal": 4662.48,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-05",
+      "transactionDetails": "Oil sale",
+      "amount": 17.6,
+      "runningTotal": 4680.08,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-06",
+      "transactionDetails": "Ramp fee cash",
+      "amount": 84.3,
+      "runningTotal": 4764.38,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-11",
+      "transactionDetails": "Avgas self-serve cash",
+      "amount": 131.19,
+      "runningTotal": 4895.57,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-07-15",
+      "transactionDetails": "Donation jar",
+      "amount": 104.93,
+      "runningTotal": 5000.5,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-09",
+      "transactionDetails": "Ramp fee cash",
+      "amount": -26.51,
+      "runningTotal": 4973.99,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-21",
+      "transactionDetails": "Oil sale",
+      "amount": 84.05,
+      "runningTotal": 5058.04,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-25",
+      "transactionDetails": "Pilot supplies",
+      "amount": 121.77,
+      "runningTotal": 5179.81,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-26",
+      "transactionDetails": "Oil sale",
+      "amount": -21.43,
+      "runningTotal": 5158.38,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-27",
+      "transactionDetails": "Avgas self-serve cash",
+      "amount": 38.66,
+      "runningTotal": 5197.04,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-30",
+      "transactionDetails": "Ramp fee cash",
+      "amount": 24.66,
+      "runningTotal": 5221.7,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-08-31",
+      "transactionDetails": "Ramp fee cash",
+      "amount": 194.23,
+      "runningTotal": 5415.93,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-01",
+      "transactionDetails": "Ramp fee cash",
+      "amount": -25.6,
+      "runningTotal": 5390.33,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-04",
+      "transactionDetails": "Oil sale",
+      "amount": 115.6,
+      "runningTotal": 5505.93,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-23",
+      "transactionDetails": "Oil sale",
+      "amount": -3.39,
+      "runningTotal": 5502.54,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-24",
+      "transactionDetails": "Donation jar",
+      "amount": 70.0,
+      "runningTotal": 5572.54,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-09-28",
+      "transactionDetails": "Ramp fee cash",
+      "amount": -17.8,
+      "runningTotal": 5554.74,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-02",
+      "transactionDetails": "Donation jar",
+      "amount": 86.1,
+      "runningTotal": 5640.84,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-03",
+      "transactionDetails": "Avgas self-serve cash",
+      "amount": 127.03,
+      "runningTotal": 5767.87,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-10-05",
+      "transactionDetails": "Donation jar",
+      "amount": -23.88,
+      "runningTotal": 5743.99,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-02",
+      "transactionDetails": "Pilot supplies",
+      "amount": -28.66,
+      "runningTotal": 5715.33,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-10",
+      "transactionDetails": "Petty cash out",
+      "amount": 68.77,
+      "runningTotal": 5784.1,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-13",
+      "transactionDetails": "Avgas self-serve cash",
+      "amount": 135.34,
+      "runningTotal": 5919.44,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-23",
+      "transactionDetails": "Oil sale",
+      "amount": 193.38,
+      "runningTotal": 6112.82,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-24",
+      "transactionDetails": "Pilot supplies",
+      "amount": -16.16,
+      "runningTotal": 6096.66,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-11-30",
+      "transactionDetails": "Avgas self-serve cash",
+      "amount": 174.74,
+      "runningTotal": 6271.4,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-01",
+      "transactionDetails": "Pilot supplies",
+      "amount": 1.23,
+      "runningTotal": 6272.63,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-11",
+      "transactionDetails": "Petty cash out",
+      "amount": 217.6,
+      "runningTotal": 6490.23,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-12",
+      "transactionDetails": "Donation jar",
+      "amount": 212.78,
+      "runningTotal": 6703.01,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-14",
+      "transactionDetails": "Avgas self-serve cash",
+      "amount": 2.76,
+      "runningTotal": 6705.77,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-15",
+      "transactionDetails": "Pilot supplies",
+      "amount": 209.49,
+      "runningTotal": 6915.26,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2026-12-18",
+      "transactionDetails": "Pilot supplies",
+      "amount": 169.88,
+      "runningTotal": 7085.14,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-01",
+      "transactionDetails": "Ramp fee cash",
+      "amount": 157.92,
+      "runningTotal": 7243.06,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-05",
+      "transactionDetails": "Donation jar",
+      "amount": -39.1,
+      "runningTotal": 7203.96,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-06",
+      "transactionDetails": "Pilot supplies",
+      "amount": 182.35,
+      "runningTotal": 7386.31,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-08",
+      "transactionDetails": "Avgas self-serve cash",
+      "amount": 9.99,
+      "runningTotal": 7396.3,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-13",
+      "transactionDetails": "Oil sale",
+      "amount": 73.96,
+      "runningTotal": 7470.26,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-23",
+      "transactionDetails": "Ramp fee cash",
+      "amount": 182.93,
+      "runningTotal": 7653.19,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-26",
+      "transactionDetails": "Avgas self-serve cash",
+      "amount": -32.08,
+      "runningTotal": 7621.11,
+      "initials": "KA",
+      "synthetic": true
+    },
+    {
+      "date": "2027-01-28",
+      "transactionDetails": "Petty cash out",
+      "amount": 18.53,
+      "runningTotal": 7639.64,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-16",
+      "transactionDetails": "Petty cash out",
+      "amount": 44.1,
+      "runningTotal": 7683.74,
+      "initials": "TY",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-17",
+      "transactionDetails": "Donation jar",
+      "amount": 146.22,
+      "runningTotal": 7829.96,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-21",
+      "transactionDetails": "Oil sale",
+      "amount": 109.65,
+      "runningTotal": 7939.61,
+      "initials": "DA",
+      "synthetic": true
+    },
+    {
+      "date": "2027-02-23",
+      "transactionDetails": "Pilot supplies",
+      "amount": 150.81,
+      "runningTotal": 8090.42,
+      "initials": "KA",
+      "synthetic": true
+    }
+  ]
+}
