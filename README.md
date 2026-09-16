@@ -14,13 +14,111 @@ scripts/              Data generation
 global-resources/     Design tokens and a static interactive demo
 ```
 
-## Running it
+## Running it locally
+
+### Prerequisites
+
+- **Node.js 20.9 or newer** (Next.js 16 requirement) and npm
+- **Git**
+- *Optional:* Python 3.10+ if you want to regenerate the demo data
+- *Optional:* an Anthropic API key, only for live AI mode (see [AI modes](#ai-modes))
+
+No database, backend, or account is needed. Both apps read JSON straight from
+`shared-data/`.
+
+### 1. Clone
 
 ```bash
-cd public-site && npm install && npm run dev
+git clone https://github.com/jtwillo51/airporthq-fbo-platform.git
 ```
 ```bash
-cd airporthq-platform && npm install && npm run dev -- -p 3001
+cd airporthq-fbo-platform
+```
+
+### 2. Start the staff platform (AirportHQ) on port 3001
+
+```bash
+cd airporthq-platform
+```
+```bash
+npm install
+```
+```bash
+npm run dev -- -p 3001
+```
+
+Open http://localhost:3001.
+
+### 3. Start the public site on port 3000
+
+In a second terminal, from the repo root:
+
+```bash
+cd public-site
+```
+```bash
+npm install
+```
+```bash
+npm run dev
+```
+
+Open http://localhost:3000.
+
+The two apps run independently, so you can start just one. Always run each
+from inside its own folder: both find the data at `../shared-data`, relative
+to where they start.
+
+### 4. Optional configuration
+
+Everything works with no configuration. To change the platform defaults, copy the
+example file inside `airporthq-platform/`:
+
+```bash
+cp .env.local.example .env.local
+```
+
+| Variable | App | Default | Purpose |
+|---|---|---|---|
+| `AI_MODE` | platform | sample | Set to `live` for real Claude calls |
+| `ANTHROPIC_API_KEY` | platform | none | Needed only when `AI_MODE=live` |
+| `NEXT_PUBLIC_DEMO_TODAY` | platform | `2026-08-19` | Pinned "today"; `live` uses the real clock |
+| `WEATHER_STATION` | public site | `KDEN` | Real station for live METAR/TAF (the demo airport is fictional) |
+
+Set `WEATHER_STATION` in `public-site/.env.local` instead. Restart `npm run dev`
+after changing env files. `.env` and `.env.local` are
+gitignored.
+
+### Resetting and regenerating data
+
+Edits made in AirportHQ (fuel prices, site content, log entries) are written
+back into the JSON files in `shared-data/`. To throw them away:
+
+```bash
+git checkout -- shared-data
+```
+
+To rebuild the whole dataset from the seeded generator (the output is the same
+every run):
+
+```bash
+python scripts/generate_timeline.py
+```
+
+### Production build and evals
+
+```bash
+npm run build
+```
+```bash
+npm start -- -p 3001
+```
+
+The AI insights eval (`airporthq-platform/`) calls the live model and needs a
+funded `ANTHROPIC_API_KEY`:
+
+```bash
+npm run eval:insights
 ```
 
 ## AI modes
